@@ -1,0 +1,48 @@
+[
+  {  "bnrtitle" :  "سهلة و مريحة وآمنة", 
+  	 "bnrp": "منصة دفع جديدة للجميع في دولة الإمارات العربية المتحدة",
+	 "learnmore":"اكتشف المزيد",
+	 "eservices":"E-Dirham خدمات",
+	 "servicedesc":
+	  [
+	     {
+			 "icoimg":"prepard-ico",
+			 "icotitle":"بطاقات الائتمان \n والبطاقات مسبقة الدفع",
+			 "icop":"Use the Al Haslah cards to pay for your service fees at more 2700 point of sale devices across the United Arab Emirates. The blue and green Al Haslah cards you can use anywhere when supported by Visa."
+			 
+		 },
+		 {
+			 "icoimg":"efund-ico",
+			 "icotitle":"تحويل الأموال إلكترونياً \n نقاط البيع",
+			 "icop":"Payments of or card reloads can be done via the E-Dirham electronic payment collection machines that are in line with the latest international networks."
+			 
+		 },
+		 {
+			 "icoimg":"ecart-ico",
+			 "icotitle":"الدفع عبر الإنترنت \n والتجارة الإلكترونية",
+			 "icop":"يمكن سداد الدفعات عبر الإنترنت بأعلى درجات الأمان و الحماية، وذلك من خلال بوابة الدفع الإلكتروني الخاصة بنظام الدرهم الإلكتروني، وسوف يتمّ قبول السداد من خلال بطاقات فيزا أو ماستركارد بالإضافة إلى بطاقات الدرهم الإلكتروني. "
+			 
+		 }
+	  
+	  ],
+	 "buisness":"الأعمال",
+	 "buisnessp":"E-Dirham an easy, secure and convenient payment platform in the United Arab Emirates. We encourages business and merchant to join the e-dirham network to reap the many benefits it has for businesses.",
+	 "buislist":
+	 [
+	   {"blistimg":"bis-img1",
+	    "blisttitle":"مزايا متكاملة مع الدرهم الإلكتروني"
+	   },
+	   {"blistimg":"bis-img2",
+	    "blisttitle":"طريقة الاستخدام"
+	   },
+	   {"blistimg":"bis-img3",
+	    "blisttitle":"منظومة الدرهم الإلكتروني"
+	   }
+	 ],
+	 "readmore":"Read More"	,
+	 
+	 
+	 "whatisedirham": "ما هو الدرهم الإلكتروني"  
+  }
+		
+]

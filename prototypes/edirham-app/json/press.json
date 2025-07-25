@@ -1,0 +1,93 @@
+[
+  {  "pagetitle"   :  "Press Releases", 
+  	 "jan2014"     : "January 2014",
+	 "newsJan2014": 
+	   [
+	      { 
+		     "newsimg"    : "pressimg1",
+			 "newsimgBig" : "preeimgBig",
+			 "newsimgsml" : "pressimgsml", 
+			 "newstitle"  : "Lorem ipsum dolor sit",
+			 "newsdesc"   : "Lorem ipsum dolor sit amet, consec tetur adipiscing elit umsan et viverra justo penat  commodo proin...",
+			 "newsdate"   : "18/01/2014",
+			 "newsfulldesc": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, fel        tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, fel tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.",
+			 "newssource":"Source:  MOF media"
+		  },
+		  { 
+		     "newsimg"  : "pressimg2",
+			 "newsimgBig" : "preeimgBig",
+			 "newsimgsml" : "pressimgsml", 
+			 "newstitle"  : "Lorem ipsum dolor sit",
+			 "newsdesc"   : "Lorem ipsum dolor sit amet, consec tetur adipiscing elit umsan et viverra justo penat  commodo proin...",
+			 "newsdate"   : "16/01/2014",
+			 "newsfulldesc": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, fel        tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, fel tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.",
+			 "newssource":"Source:  MOF media"
+		  },
+		  { 
+		     "newsimg"  : "pressimg3",
+			 "newsimgBig" : "preeimgBig",
+			 "newsimgsml" : "pressimgsml", 
+			 "newstitle"  : "Lorem ipsum dolor sit",
+			 "newsdesc"   : "Lorem ipsum dolor sit amet, consec tetur adipiscing elit umsan et viverra justo penat  commodo proin...",
+			 "newsdate"   : "10/01/2014",
+			 "newsfulldesc": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, fel        tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, fel tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.",
+			 "newssource":"Source:  MOF media"
+		  },
+		  { 
+		     "newsimg"  : "pressimg",
+			 "newsimgBig" : "preeimgBig",
+			 "newstitle"  : "Lorem ipsum dolor sit",
+			 "newsdesc"   : "Lorem ipsum dolor sit amet, consec tetur adipiscing elit umsan et viverra justo penat  commodo proin...",
+			 "newsdate"   : "6/01/2014",
+			 "newsfulldesc": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, fel        tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, fel tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.",
+			 "newssource":"Source:  MOF media"
+		  },
+		  { 
+		     "newsimg"  : "pressimg",
+			 "newsimgBig" : "preeimgBig",
+			 "newstitle"  : "Lorem ipsum dolor sit",
+			 "newsdesc"   : "Lorem ipsum dolor sit amet, consec tetur adipiscing elit umsan et viverra justo penat  commodo proin...",
+			 "newsdate"   : "01/01/2014",
+			 "newsfulldesc": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, fel        tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, fel tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.",
+			 "newssource":"Source:  MOF media"
+		  }
+	   ],
+	 "dec2013"  :  "December 2013",
+	 "newsDec2013":
+	   [
+		  { 
+		     "newsimg"  : "pressimg",
+			 "newsimgBig" : "preeimgBig",
+			 "newstitle"  : "Lorem ipsum dolor sit",
+			 "newsdesc"   : "Lorem ipsum dolor sit amet, consec tetur adipiscing elit umsan et viverra justo penat  commodo proin...",
+			 "newsdate"   : "16/12/2013",
+			 "newsfulldesc": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, fel        tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, fel tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.",
+			 "newssource":"Source:  MOF media"
+		  },
+		  { 
+		     "newsimg"  : "pressimg",
+			 "newsimgBig" : "preeimgBig",
+			 "newstitle"  : "Lorem ipsum dolor sit",
+			 "newsdesc"   : "Lorem ipsum dolor sit amet, consec tetur adipiscing elit umsan et viverra justo penat  commodo proin...",
+			 "newsdate"   : "16/12/2013",
+			 "newsfulldesc": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, fel        tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, fel tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.",
+			 "newssource":"Source:  MOF media"
+		  },
+		  { 
+		     "newsimg"  : "pressimg",
+			 "newsimgBig" : "preeimgBig",
+			 "newstitle"  : "Lorem ipsum dolor sit",
+			 "newsdesc"   : "Lorem ipsum dolor sit amet, consec tetur adipiscing elit umsan et viverra justo penat  commodo proin...",
+			 "newsdate"   : "16/13/2013",
+			 "newsfulldesc": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, fel        tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, fel tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.",
+			 "newssource":"Source:  MOF media"
+		  }
+	   ],
+	   
+	   "readmore": "Read More",
+	   "loadmore": "Load More",
+	   "viewallpress":"Views All Press Releases"
+
+  }
+		
+]

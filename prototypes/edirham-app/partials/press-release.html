@@ -1,0 +1,68 @@
+<div  ng-controller="pressCtrl" ng-repeat="press in pressVariable">     
+<!-- Master Head
+    ================================================== -->
+    <div class="orng-patrnBg">
+         <h5>{{press.pagetitle}}</h5>
+    </div><!-- master head ends here-->
+    
+    <section class="press pr">
+        
+        <div class="hidden-xs hidden-sm">
+        <div class="container">
+            <h5 class="titl">{{press.jan2014}}</h5>
+                    <div class="col-md-4" ng-repeat="newsJan2014 in press.newsJan2014">
+                        <figure class="presreles"><img src="images/{{newsJan2014.newsimg}}.jpg" alt="{{newsJan2014.newsimg}}"/>
+                        <figcaption><h6>{{newsJan2014.newstitle}}</h6>
+                        <p>{{newsJan2014.newsdesc}}</p>
+                        <a href="#/press-details">{{press.readmore}}</a></figcaption>
+                        </figure>
+                    </div>
+                    
+                    
+                    
+                    
+           </div>     
+      <div class="lightblubg">
+        <div class="container">
+        <h5 class="titl">{{press.dec2013}}</h5>
+            <div class="row">
+                <div class="col-md-4"  ng-repeat="newsDec2013 in press.newsDec2013">
+                    <figure class="presreles"><img src="images/{{newsDec2013.newsimg}}.jpg" alt="{{newsDec2013.newsimg}}"/>
+                    <figcaption><h6>{{newsDec2013.newstitle}}</h6>
+                    <p>{{newsDec2013.newsdesc}}</p>
+                    <a href="#/press-details">{{press.readmore}}</a></figcaption>
+                    </figure>
+                </div>
+            </div>
+         </div> 
+         </div>
+        </div>  <!--press for web ends here-->
+        
+        <div class="hidden-lg hidden-md">
+            <ul class="pressmob container">
+            <h5>{{press.jan2014}}</h5>
+             <li ng-repeat="newsJan2014 in press.newsJan2014">
+                <img src="images/{{newsJan2014.newsimg}}.jpg" alt="{{newsJan2014.newsimg}}"/>
+                <p>{{newsJan2014.newsdesc}}
+                </p><a href="#/press-details">{{press.readmore}}</a>
+             </li>
+            </ul>
+            <div class="lightblubg">
+             <ul class="pressmob container">
+            <h5>{{press.dec2013}}</h5>
+				<li ng-repeat="newsDec2013 in press.newsDec2013">
+                <img src="images/{{newsDec2013.newsimg}}.jpg" alt="{{newsDec2013.newsimg}}"/>
+                <p>{{newsDec2013.newsdesc}}
+                </p><a href="#/press-details">{{press.readmore}}</a>
+             </li>            
+             </ul>
+            </div>  
+    
+    </div>  <!--Press for mobile ends here-->
+
+         
+     <div class="midbtn"><a href="#" class="btn blkbtn">{{press.loadmore}}</a></div> 
+         
+    </section>
+</div>
+<div ng-include="'partials/footer.html'" ng-controller="footerCtrl" ></div>

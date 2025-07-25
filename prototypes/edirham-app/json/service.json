@@ -1,0 +1,66 @@
+[
+  {  "pagetitle"  :  "Services", 
+  	 "servicp"     : "At E-Dirham we strive to give the best possible service to our customers and in order to maintain that level we continuously look into innovation. Along our Al Haslah cards we offer wide range of other services to our customers. We believe in that our services and standards should give a feeling of convenience, easiness and security at all times.", 
+     "servicetype" : 
+	  [
+	
+		{
+			"title"		 : "Prepaid and Credit Cards",
+			"image"      : "serv-prepaid",
+			"servip"     : "Payment for service fees for e-Dirham subscribed entities is not limited to e-Dirham cards.The system will accept payments through any Visa or MasterCard via Points of Sale Terminals (EFTPOS) and the Internet (EIPG).",
+			"spoint"     :
+				[
+				   {
+					   "ed"    : "ED Cards",
+					   "edpay" : " Prepaid and Credit Cards"
+				   }
+				]
+			
+		},
+		{
+			"title"		 : "Electronic Funds Transfer Point of Sale",
+			"image"      : "serv-pos",
+			"servip"     : "Payments for purchases and e-Dirham card reloads can be made through new e-Dirham electronic collection machines (EFTPOS) that are in line with latest international networks. These machines will accept payments through any Visa or MasterCard in addition to the e-Dirham cards.",
+			"spoint"     :
+				[
+				   {
+					   "ed"    : "ED POS",
+					   "edpay" : " Payment via counter"
+				   },
+				   {
+					   "ed"    : "ED Kiosks",
+					   "edpay" : "Payment via an electronic kiosk*"
+				   },
+				   {
+					   "ed"    : "ED Vouchers",
+					   "edpay" : "Payment via electronic voucher"
+				   }
+				]
+			
+		},
+		{
+			"title"		 : "Online Payment & e-Commerce",
+			"image"      : "serv-ecart",
+			"servip"     : "Payment for service fees for e-Dirham subscribed entities is not limited to e-Dirham cards.The system will accept payments through any Visa or MasterCard via Points of Sale Terminals (EFTPOS) and the Internet (EIPG).",
+			"spoint"     :
+				[
+				   {
+					   "ed"    : "ED Mobile",
+					   "edpay" : "Payment via mobile phones*"
+				   },
+				   {
+					   "ed"    : "ED Wallet",
+					   "edpay" : "Payment through a virtual wallet*"
+				   },
+				   {
+					   "ed"    : "ED Debit and eDirect",
+					   "edpay" : "Direct debit from bank account"
+				   }
+				]
+			
+		}
+	]
+	
+  }
+		
+]

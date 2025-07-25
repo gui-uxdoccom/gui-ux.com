@@ -1,0 +1,34 @@
+   
+<div  ng-controller="servicesCtrl" ng-repeat="service in serviceVariable"> 
+    <!-- Master Head
+    ================================================== -->
+    <div class="servicebnr" >
+         <h5>{{service.pagetitle}}</h5>
+    </div><!-- master head ends here-->
+    
+    <div class="container margtop">
+    <p class="servip">{{service.servicp}}</p>
+	</div>
+
+    <!-- Types or Services
+    ================================================== -->
+  
+    <ul class="servtyp">
+	<li ng-repeat="stype in service.servicetype">
+    <div class="container">
+      <div class="col-md-3">
+      <img ng-src="images/{{stype.image}}.png" class="servimg" alt="{{stype.image}}"/>
+      </div>
+      <div class="col-md-9">
+      <h5>{{stype.title}}</h5>
+      <p>{{stype.servip}}</p>
+      <ul class="servipoints hidden-xs hidden-sm">
+      <li ng-repeat = "spoint in stype.spoint"><strong>{{spoint.ed}}</strong> - {{spoint.edpay}}</li>
+      </ul>
+      </div>
+    </div>
+    </li>
+    </ul>
+</div>
+
+<div ng-include="'partials/footer.html'" ng-controller="footerCtrl" ></div>

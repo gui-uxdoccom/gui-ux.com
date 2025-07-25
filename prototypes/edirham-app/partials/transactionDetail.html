@@ -1,0 +1,48 @@
+<div  ng-controller="transactionDetailCtrl">
+  <div class="myWallet">
+            <h2>Wallet balance: 560.00 AED</h2>
+  </div>
+	<div class="container">
+      <div class="row">
+         <div class="col-xs-12">
+           <h2>Transaction 001</h2>
+           <div class="col-xs-12 transDetail">
+            <div class="col-xs-5" style="text-align: right">Date</div>
+            <div class="col-xs-7">30/09/2014</div>
+            <div class="col-xs-5" style="text-align: right">Application ID</div>
+            <div class="col-xs-7">12334454</div>
+            <div class="col-xs-5" style="text-align: right">Status</div>
+            <div class="col-xs-7">Active</div>
+            <div class="col-xs-5" style="text-align: right">Organization</div>
+            <div class="col-xs-7">MOF</div>
+            <div class="col-xs-5" style="text-align: right">Amount</div>
+            <div class="col-xs-7">230.00 AED</div>
+            <div class="col-xs-5" style="text-align: right">Type</div>
+            <div class="col-xs-7">Type 1</div>
+            <div class="col-xs-5" style="text-align: right">Description</div>
+            <div class="col-xs-7">Description of the transaction</div>
+            <div class="col-xs-5" style="text-align: right">Location</div>
+            <div class="col-xs-7">Dubai</div>
+            <div class="col-xs-5" style="text-align: right">Credit Card</div>
+            <div class="col-xs-7">Visa</div>
+           </div> 
+           <p>&nbsp;</p><p>&nbsp;</p>
+           <a href="#/lastTransaction" class="blkbtn btn ng-binding">Back</a>
+         </div>
+          
+   </div> <!--row ends here-->
+</div><!-- container ends here--> 
+</div>
+<script>
+
+		  $(function() {
+            $("button.navbar-toggle").show();
+            $("#gliphBack").show();
+            $("#gliphBack").attr({
+              href: '#/lastTransaction',
+            });
+            $(window).scrollTop(0);
+
+          });
+
+</script>

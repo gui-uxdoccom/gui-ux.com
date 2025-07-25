@@ -1,0 +1,46 @@
+<div  ng-controller="confirmTransactionFinalCtrl">
+  <div class="myWallet">
+            <h2>Wallet balance: 560.00 AED</h2>
+  </div>
+	<div class="container">
+      <div class="row">
+         <div class="col-xs-12">
+           <h5>Please go to your account and review transaction details</h5>
+           <p>&nbsp;</p>
+            <div class="col-xs-12 transDetail">
+              <div class="col-xs-5" style="text-align: right">Receipt ID</div>
+              <div class="col-xs-7">001002003</div>
+              <div class="col-xs-5" style="text-align: right">Name</div>
+              <div class="col-xs-7">Payment verification</div>
+              <div class="col-xs-5" style="text-align: right">Provider</div>
+              <div class="col-xs-7">eDirham</div>
+              <div class="col-xs-5" style="text-align: right">Total</div>
+              <div class="col-xs-7">3.68 AED</div>
+           </div> 
+           <p>&nbsp;</p>
+          <div class="col-xs-12">
+            <label>Amount</label>
+            <input type="text" placeholder="Payment name" name="verifyAmount">
+            <small>Enter the exact amount debited to your account</small>
+            <p>&nbsp;</p>
+            <a href="#/confirmTransactionFinal" class="btn orngbtn acti">Verify</a>
+            <a class="normalLink" onClick="history.go(-1)">Cancel</a>
+          </div>
+         </div>
+          
+   </div> <!--row ends here-->
+</div><!-- container ends here--> 
+</div>
+<script>
+
+		  $(function() {
+            $("button.navbar-toggle").show();
+            $("#gliphBack").show();
+            $("#gliphBack").attr({
+              href: '#/lastTransaction',
+            });
+            $(window).scrollTop(0);
+
+          });
+
+</script>

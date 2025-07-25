@@ -1,0 +1,188 @@
+<!doctype html>
+<html ng-app="website">
+<head>
+    <title>E-Dhiram</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/edhiram-ico.ico">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navbar-fixed-top.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
+	<link href="css/bootstrap-select.css" rel="stylesheet">
+	<link href="css/menu.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet" type='text/css'>
+
+
+    
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.js"></script>
+      <script>
+      document.createElement('header');
+      document.createElement('nav');
+      document.createElement('section');
+      document.createElement('article');
+      document.createElement('aside');
+      document.createElement('footer');
+   </script>
+    <![endif]-->
+    
+  
+</head>
+<body>
+
+<header>
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation"  ng-controller="mainCtrl" >
+        <div class="container">
+            <div class="navbar-header">
+                <a href="" id="gliphBack"><span class="glyphicon glyphicon-chevron-left backbtn"></span></a>
+                <button type="button" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#/home"><img src="images/edhiram-logo.png" alt="e-dhiram logo"/></a>
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                <li class="hidden-lg hidden-md clearfix">
+                <a id="langmob" ng-click='relod()' class="pull-left navi"> العربية</a><a id="nav-close" class="pull-right">X</a></li>
+                    <li><a href="#/home" class="navi">Home</a></li>
+                    <li><a href="#/my-profile" class="navi">My Profile</a></li>
+                    <li><a href="#/edwallet" class="navi">ED Wallet</a>
+                      <ul>
+                        <li><a href="#/addPayment" class="navi">Auxiliary payments</a></li>
+                        <li><a href="#/paymentMethods" class="navi">Payment Methods</a></li>
+                        <li><a href="#/passcode" class="navi">Change Passcode</a></li>
+                      </ul>
+                    </li>  
+                    <li><a href="#/help" class="navi">Help</a></li>
+                    <li><a href="#/contact" class="navi">Contact Us</a></li>
+                    <li><a href="#/logout" class="navi">Logout</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right profile">
+                   <li class="popover-markup hidden-sm hidden-xs" id="loginpop"> <a class="trigger">{{login}}</a> 
+                    <div class="content hide" id="loginblk">
+                       <div id="userlogin">
+                            <input type="text" placeholder="{{username}}" name="username">
+                            <input type="password" placeholder="{{password}}" class="pass" name="password">
+                        <button type="submit" class="btn orngbtn">{{login}}</button>
+                        <a class="forgot" onClick="forgot()">{{forgotpass}}</a>
+                      </div>
+                      <div id="forgotpass">
+                          <h5>{{forgotpass}}</h5>
+                          <input type="text" placeholder="{{email}}" name="email">
+                          <a class="btn orngbtn rem" onClick="remember()">{{remember}}</a>
+                      </div><!--forgotpass ends here-->
+                      <div id="msgsend">
+                          <h5>{{msgsend}}</h5>
+                          <p>{{msgtxt}}</p>
+                          <a class="btn blkbtn ok" onClick="loginclose()">{{ok}}</a>
+                      </div><!--forgotpass ends here-->
+                    </div><!--content ends here-->
+                </li><!-- login for web ends here-->
+                    <li class="bor hidden-xs hidden-sm" ><a id="langtoggle" ng-click='relod()'> العربية</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+
+        </div>
+  </header>
+
+<div id="container">
+    <div ng-view></div>
+</div>
+
+
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular-route.min.js"></script>
+	  <script type="text/javascript" src="js/controller.js"></script>
+    <script src="js/menu.js"></script>    
+	  <script src="js/angular-gauge.js"></script>
+    <script src="js/gauge.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script>   
+      $(function(){   
+          $("#langtoggle").click(function(){                      
+                  $('head link').each(function(){
+                      if($(this).attr('rel') == "stylesheet"){
+                          if($(this).attr('href') == "css/style.css"){
+                              $(this).attr("href","css/style_ar.css");
+            $("#langtoggle").text('English');
+            
+                          } else if($(this).attr('href') == "css/style_ar.css"){
+                              $(this).attr("href","css/style.css");
+            $("#langtoggle").text(' العربية');
+                          }
+                      }
+                  });
+          });
+            
+      $("#langmob").click(function(){                      
+              $('head link').each(function(){
+                  if($(this).attr('rel') == "stylesheet"){
+                      if($(this).attr('href') == "css/style.css"){
+                          $(this).attr("href","css/style_ar.css");
+        $("#langmob").text('English');
+        langu=2;
+                      } else if($(this).attr('href') == "css/style_ar.css"){
+                          $(this).attr("href","css/style.css");
+        $("#langmob").text(' العربية');
+        langu=1;
+                      }
+                  }
+              });
+      });
+                
+  		$('.popover-markup>.trigger').popover({
+  			 placement : 'bottom',
+  			html: true,
+  			title: function () {
+  				return $(this).parent().find('.head').html();
+  			},
+  			content: function () {
+  				return $(this).parent().find('.content').html();
+  			}
+  		});	
+
+  	 $("#container").click(function(){
+  			$(".popover").hide();
+  		});
+		
+    //custom function
+  	function forgot(){ 
+	 		$("#userlogin").hide();   
+			$("#forgotpass").show(); 
+	 
+	       }
+	 
+	    function remember(){
+		    $("#userlogin").hide(); 
+	 		$("#forgotpass").hide();   
+			$("#msgsend").show(); 
+	      }
+		function loginclose(){
+			$("#loginpop .popover").hide(); 
+		}
+    </script>
+
+</html>

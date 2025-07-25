@@ -1,0 +1,61 @@
+<div  ng-controller="pressCtrl" ng-repeat="press in pressVariable">   
+    <!-- Master Head
+    ================================================== -->
+    <div class="orng-patrnBg">
+         <h5>{{press.pagetitle}}</h5>
+    </div><!-- master head ends here-->
+    
+    <section class="lightblubg presdet"  >
+    <div class="container">
+       <div class="date">{{press.newsJan2014[1].newsdate}}</div>
+       <h5>{{press.newsJan2014[1].newstitle}}</h5>
+        <p><img class="presimg" src="images/{{press.newsJan2014[1].newsimgBig}}.jpg" alt=""/>
+        {{press.newsJan2014[1].newsfulldesc}} <br/><br/>
+        {{press.newsJan2014[1].newssource}}
+        </p>
+      </div> 
+      </section>
+      
+      <div class="container margtop">
+      <div class="hidden-xs hidden-sm">
+        <div class="col-md-6">
+          <div class="presthumb">
+            <img src="images/{{press.newsJan2014[0].newsimgsml}}.jpg" alt=""/>
+              <h6>{{press.newsJan2014[0].newstitle}}</h6>
+              <p>{{press.newsJan2014[0].newsdesc}}</p>
+                <a href="#/press-details">{{press.readmore}}</a>
+          </div>
+      </div>
+        <div class="col-md-6">
+          <div class="presthumb">
+            <img src="images/{{press.newsJan2014[2].newsimgsml}}.jpg" alt=""/>
+              <h6>{{press.newsJan2014[2].newstitle}}</h6>
+              <p>{{press.newsJan2014[2].newsdesc}}</p>
+                <a href="#/press-details">{{press.readmore}}</a>
+          </div>
+      </div>
+      </div>
+      
+       <div class="hidden-lg hidden-md">
+    	<ul class="pressmob">
+         <li>
+         	<img src="images/{{press.newsJan2014[0].newsimgsml}}.jpg" alt="pressimage"/>
+            <p>{{press.newsJan2014[0].newsdesc}}
+			</p><a href="#/press-details">{{press.readmore}}</a>
+         </li>
+         <li>
+         	<img src="images/{{press.newsJan2014[2].newsimgsml}}.jpg" alt="pressimage"/>
+            <p>{{press.newsJan2014[2].newsdesc}}
+			</p><a href="#/press-details">{{press.readmore}}</a>
+         </li>
+        </ul>
+    
+    </div>  <!--Press for mobile ends here-->
+      <div class="midbtn padbot"><a href="#/press-release" class="btn blkbtn">{{press.viewallpress}}</a></div>
+	</div>
+    
+    
+</div>
+    
+<div ng-include="'partials/footer.html'" ng-controller="footerCtrl" ></div>
+    

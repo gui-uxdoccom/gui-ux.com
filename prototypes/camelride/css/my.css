@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#FFF}
+.my-page h2.title{ margin-bottom:0px}
+.my-page p.hint{ margin:3px 0 20px 0;color:#666}
+.my-page label p.hint{ margin:3px 0 0 0;color:#666;font-size:65%}
+.my-page form .ui-link{font-size:14px}
+
+table.table-stroke{width:100%;border-collapse:collapse}
+table.table-stroke thead th, table.table-stroke tfoot th, table.table-stroke tfoot td{background-color:#fff;padding-top:5px}
+table.table-stroke th{text-align:right;width:50%;padding-right:10px}
+table.table-stroke tbody th,table.table-stroke tbody td{font-size:85%;padding:5px}
+table.table-stroke th.second{text-align:left}
+div.logo img{margin:5px;width:60%;}
+div.logo{text-align:center} 

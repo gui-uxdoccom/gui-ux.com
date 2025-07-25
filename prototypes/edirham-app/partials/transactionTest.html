@@ -1,0 +1,50 @@
+<div  ng-controller="transactionTestCtrl">
+  <div class="myWallet">
+            <h2>Wallet balance: 560.00 AED</h2>
+  </div>
+	<div class="container">
+      <div class="row">
+         <div class="col-xs-12">
+           <h2>Verifying your payment method</h2>
+           <p>We will run a payment test in order to verify your new payment method and
+           after the verification is completed we will refund you the amount below</p>
+           <h5>Transaction details</h5>
+            <div class="col-xs-12 transDetail">
+              <div class="col-xs-5" style="text-align: right">Name</div>
+              <div class="col-xs-7">Payment verification</div>
+              <div class="col-xs-5" style="text-align: right">Provider</div>
+              <div class="col-xs-7">eDirham</div>
+              <div class="col-xs-5" style="text-align: right">Amount</div>
+              <div class="col-xs-7">3.68 AED</div>
+              <div class="col-xs-5" style="text-align: right">Fees</div>
+              <div class="col-xs-7">0.00 AED</div>
+              <div class="col-xs-5" style="text-align: right">Merchant fees</div>
+              <div class="col-xs-7">0.00 AED</div>
+              <div class="col-xs-5" style="text-align: right">eDirham fees</div>
+              <div class="col-xs-7">0.00 AED</div>
+              <div class="col-xs-5" style="text-align: right">Total</div>
+              <div class="col-xs-7">3.68 AED</div>
+           </div> 
+           <p>&nbsp;</p>
+           <div class="col-xs-12">
+             <a href="#/confirmTransactionTest" class="btn orngbtn acti">Proceed</a>
+             <a class="normalLink" onClick="history.go(-1)">Cancel</a>
+           </div>
+         </div>
+          
+   </div> <!--row ends here-->
+</div><!-- container ends here--> 
+</div>
+<script>
+
+		  $(function() {
+            $("button.navbar-toggle").show();
+            $("#gliphBack").show();
+            $("#gliphBack").attr({
+              href: '#/lastTransaction',
+            });
+            $(window).scrollTop(0);
+
+          });
+
+</script>

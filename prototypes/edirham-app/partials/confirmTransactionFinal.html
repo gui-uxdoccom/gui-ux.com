@@ -1,0 +1,30 @@
+<div  ng-controller="confirmTransactionFinalCtrl">
+  <div class="myWallet">
+            <h2>Wallet balance: 560.00 AED</h2>
+  </div>
+	<div class="container">
+      <div class="row">
+         <div class="col-xs-12">
+          <p>&nbsp;</p>
+          <h5>Your new payment method has been added sucessfully</h5> 
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+           <a href="#/listPaymentMethod" class="btn orngbtn acti">Done</a>
+         </div>
+          
+   </div> <!--row ends here-->
+</div><!-- container ends here--> 
+</div>
+<script>
+
+		  $(function() {
+            $("button.navbar-toggle").show();
+            $("#gliphBack").show();
+            $("#gliphBack").attr({
+              href: '#/lastTransaction',
+            });
+            $(window).scrollTop(0);
+
+          });
+
+</script>

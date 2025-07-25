@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CAMEL RACE</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+    <link rel="stylesheet" href="http://jquerymobile.com/demos/1.3.0/docs/_assets/css/jqm-demos.css" />
+    <link rel="stylesheet" href="css/my.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://jquerymobile.com/demos/1.3.0/docs/_assets/js/jquery.mobile.demos.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+</head>
+<body>
+<div data-role="page" id="demo-page" class="my-page" data-theme="b">
+	<div data-role="header" data-theme="b">
+		<h1>CAMEL RACE</h1>
+		<a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+	</div><!-- /header -->
+	<!--Panel-->
+	  <div data-role="panel" data-position-fixed="true" data-theme="c" id="nav-panel">
+        <ul data-role="listview" data-theme="c" class="nav-search"><li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+            <li>Menu</li>
+            <li><a href="menu.htm" data-transition="slide" data-direction="reverse">HOME</a></li>
+            <li><a href="add.htm" data-transition="slide">Add a Camel</a></li>
+			<li><a href="find-owner.htm" data-transition="slide">Owner Information</a></li>
+        </ul>
+    </div><!-- /panel -->
+	<div data-role="content">
+	<h2 class="title">Camels</h2>
+    <p class="hint">Add a camel</p>
+	<BR/>
+	<form action="add.htm" data-transition="slide">
+        <label><strong>Inform the number</strong></label>
+        <input type="text" name="text-basic" id="text-basic" value="" placeholder="ex. 1234567" required>
+        <br/>&nbsp;
+		<input type="submit" data-icon="search" value="ADD" data-theme="f">
+    </form>
+    <div data-role="popup" id="popupBasic">
+	    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>	
+        <img src="" alt=""/><img src="img/entry-permit.jpg">
+    </div>
+  </div><!-- /content -->
+    
+    <div data-role="footer" data-theme="none">        <h4>Prototype</h4>
+    </div><!-- /footer -->
+
+</div><!-- /page -->
+</body>
+</html>

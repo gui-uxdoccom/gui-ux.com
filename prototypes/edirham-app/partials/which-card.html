@@ -1,0 +1,113 @@
+<div  ng-controller="which-cardCtrl" ng-repeat="whichcard in whichcardVariable">     
+
+    <!-- Master Head
+    ================================================== -->
+    <div class="cardbnr">
+         <h5>{{whichcard.cards}}</h5>
+    </div><!-- master head ends here-->
+    
+    <div class="container margtop">
+    <h5>{{whichcard.whichcardisright}}</h5>
+    <p class="text-center">{{whichcard.whichcardp}}</p>
+	</div>
+
+    <!-- which card is right 
+    ================================================== -->
+        <ul class="which">
+          <li>
+             <div class="container">
+              <div class="col-md-5">
+                 <input type="radio" id="radio-1-1" name="radio-1-set" class="regular-radio" checked /><label for="{{whichcard.whichcardlist[0].radiolabel1}}"></label>
+                <p>{{whichcard.whichcardlist[0].whichcardopt1}}</p>
+              </div>
+             <div class="col-md-1 or">
+                {{whichcard.or}}
+              </div>
+              <div class="col-md-5">
+                 <input type="radio" id="radio-1-2" name="radio-1-set" class="regular-radio" /><label for="{{whichcard.whichcardlist[0].radiolabel2}}"></label>
+                 <p>{{whichcard.whichcardlist[0].whichcardopt2}}</p>
+              </div>
+              </div>
+          </li>
+          <li>
+             <div class="container">
+              <div class="col-md-5">
+                 <input type="radio" id="radio-1-3" name="radio-2-set" class="regular-radio" checked /><label for="{{whichcard.whichcardlist[1].radiolabel1}}"></label>
+                <p>{{whichcard.whichcardlist[1].whichcardopt1}}</p>
+              </div>
+             <div class="col-md-1 or">
+                {{whichcard.or}}
+              </div>
+              <div class="col-md-5">
+                 <input type="radio" id="radio-1-4" name="radio-2-set" class="regular-radio" /><label for="{{whichcard.whichcardlist[1].radiolabel2}}"></label>
+                 <p>{{whichcard.whichcardlist[1].whichcardopt2}}</p>
+              </div>
+              </div>
+          </li>
+          <li>
+             <div class="container">
+              <div class="col-md-5">
+                 <input type="radio" id="radio-1-5" name="radio-3-set" class="regular-radio" checked /><label for="{{whichcard.whichcardlist[2].radiolabel1}}"></label>
+                <p><pre>{{whichcard.whichcardlist[2].whichcardopt1}}</pre></p>
+              </div>
+             <div class="col-md-1 or">
+                {{whichcard.or}}
+              </div>
+              <div class="col-md-5">
+                 <input type="radio" id="radio-1-6" name="radio-3-set" class="regular-radio" /><label for="{{whichcard.whichcardlist[2].radiolabel2}}"></label>
+                 <p>{{whichcard.whichcardlist[2].whichcardopt1}}</p>
+              </div>
+              </div>
+          </li>
+          <li>
+             <div class="container">
+              <div class="col-md-5">
+                 <input type="radio" id="radio-1-7" name="radio-4-set" class="regular-radio" checked /><label for="{{whichcard.whichcardlist[3].radiolabel1}}"></label>
+                <p>{{whichcard.whichcardlist[3].whichcardopt1}}</p>
+              </div>
+             <div class="col-md-1 or">
+                {{whichcard.or}}
+              </div>
+              <div class="col-md-5">
+                 <input type="radio" id="radio-1-8" name="radio-4-set" class="regular-radio" /><label for="{{whichcard.whichcardlist[3].radiolabel2}}"></label>
+                 <p><pre>{{whichcard.whichcardlist[3].whichcardopt1}}</pre></p>
+              </div>
+              </div>
+          </li>
+        </ul> 
+        
+        <div class="midbtn">
+        <a class="btn orngbtn" onClick="showrightcard()">{{whichcard.findout}}</a>
+        <a href="#/cards" class="btn blkbtn">{{whichcard.backtocards}}</a>
+        </div>
+</div> 
+		<div ng-controller="cardsCtrl" ng-repeat="cards in cardsVariable">
+        <div class="container cards" id="rightcard">
+            <div class="col-md-5 hidden-lg hidden-md">
+                <img class="cardimg" ng-src="images/{{cards.cardtypes[0].cardimg}}.png" alt="{{cards.cardtypes[0].cardname}}"/>
+            </div>
+            <h5>{{cards.cardtypes[0].cardname}}</h5>
+            <div class="col-md-7">
+                <p>{{cards.cardtypes[0].cardp}}</p>
+                <ul class="det">
+                <li ng-repeat="cardDetail in cards.cardtypes[0].cardDetail"  class="col-md-5 col-sm-6 col-xs-6">{{cardDetail.det1}}<br/><span>{{cardDetail.det2}}</span></li>
+                </ul>
+                <div class="cardbtns">
+                    <a href="#/card-types" class="btn orngbtn">{{cards.learnmore}}</a>
+                    <a href="#/cards-apply" class="btn blkbtn hidden-xs hidden-sm">{{cards.applynow}}</a>
+                </div>
+            </div> <!--col-md-7 ends here-->
+            <div class="col-md-5 hidden-xs hidden-sm">
+                <img class="cardimg" ng-src="images/{{cards.cardtypes[0].cardimg}}.png" alt="{{cards.cardtypes[0].cardname}}"/>
+            </div>
+          </div>
+          
+ </div>        
+ <div ng-include="'partials/footer.html'" ng-controller="footerCtrl" ></div>
+
+ <script>
+	function showrightcard(){ 
+	$("#rightcard").show(); 
+	$("#findcardbtn").hide();
+	}
+ </script>

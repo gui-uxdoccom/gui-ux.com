@@ -1,0 +1,36 @@
+[
+  {   "cards": "البطاقات",
+ 	 "whichcardisright"  : "Which card is right for you?",
+	 "whichcardp"     : "E-Dirham wizard will help you finding out which cards suits best for your need.",
+	 "findout" : "Find Out My Card",
+	 "backtocards"    : "Back to Cards",
+	 "or" : "Or",
+	 "whichcardlist" :
+	   [
+	      { "radiolabel1"  : "radio-1-1",
+		    "whichcardopt1": "I want my name or my company name printed on the card",
+		    "radiolabel2"  : "radio-1-2",
+		    "whichcardopt2": "I don't need my name or my company name printed on the card"
+		  },
+		  { "radiolabel1"  : "radio-1-3",
+		    "whichcardopt1": "I don't want to register \n to receive the card",
+		    "radiolabel2"  : "radio-1-4",
+		    "whichcardopt2": "I am ok to register for my card"
+		  },
+		  { "radiolabel1"  : "radio-1-5",
+		    "whichcardopt1": "I need a cobranded card \n ( VISA, MasterCard )",
+	        "radiolabel2"  : "radio-1-6",
+		    "whichcardopt2": "I don't need a cobranded card"
+		  },
+		  { "radiolabel1"  : "radio-1-7",
+		    "whichcardopt1": "I want to use my card worldwide",
+	        "radiolabel2"  : "radio-1-8",
+		    "whichcardopt2": "I want to use my card for  government \n and non-government service"
+		  }
+	   ]
+	 
+	   
+	 
+  }
+		
+]

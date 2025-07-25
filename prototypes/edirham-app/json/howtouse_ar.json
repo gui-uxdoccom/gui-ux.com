@@ -1,0 +1,33 @@
+[
+  {  "pagetitle1"    :  "البطاقات",
+     "pagetitle2"    :   "طريقة الاستخدام", 
+ 	 "atm"  : "أجهزة الصرّاف الآلي",
+	 "step1": "Step 1",
+	 "step2": "Step 2", 
+	 "step3": "Step 3",
+	 "dummyimg" : "dummyimg",
+	 "step1desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. \n \n Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ",
+	 "step2desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. \n \n Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ",
+	 "step3desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. \n \n Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ",
+	 "topup": "Top Up",
+	 "topupdesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus.  Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.",
+	 "toplst":
+	   [
+	   	  {"toplist": "Set Passcode/ Change Passcode / Reset Passcode"},
+		  {"toplist": "Load and Reload your e-Dirham G2 cards"},
+	      {"toplist": "Assigning PIN"}
+	   ],
+	  "wheretouse":"أماكن الاستخدام",
+	  "whereusep" :"You can pay with e-dirham at most of the UAE Ministries, Merchants, Typing centers and much more. Find out all the locations to top up your accounts and make payments via the ED Kiosk, ED Mobile or Online.",
+	  "minstry": "Ministry and authorities",
+	  "typingcntr" : "Typing Centers",
+	  "goldcard" : "البطاقة الذهبية",
+	  "learnmore" : "اكتشف المزيد",
+	  "viewallcard": "View All Cards",
+	  "goldcardimg":"goldcard",
+	  "wheretousemobp":"E-Dirham is an easy, convenient and secure payment platform for everyone in the UAE. "
+	   
+	 
+  }
+		
+]

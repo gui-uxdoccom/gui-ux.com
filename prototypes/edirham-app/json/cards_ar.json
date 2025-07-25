@@ -1,0 +1,254 @@
+[
+  {  "pagetitle"  :  "البطاقات", 
+     "cardtypes" : 
+	  [
+		{
+			"cardimg"  : "goldcard",
+			"cardname" : "البطاقة الذهبية",
+			"cardp"    : "The first and unique card that you can brand with your personal or company name. The Al Haslah Gold Card allows you to transfer larger amounts save and secure via the e-dirham payment platform.",
+			"cardDetail":
+			   [ 
+			     {
+							 "det1": "درهم 10.000,00",
+							 "det2": "الحد الأقصى"
+						 },
+						 {
+							 "det1": "الأشياء المطلوبة",
+							 "det2": "التسجيل"
+						 },
+						 {
+							 "det1": "3 سنوات",
+							 "det2": "تاريخ الانتهاء"
+						 },
+						 {
+							 "det1": "25 درهماً",
+							 "det2": "سعر الشراء"
+				 }
+			   ],
+			"cardbg":"goldbg",
+			"cardAtrribute": 
+			   [
+			     {"cardAttri":"شريط مغناطيسي"},
+				 {"cardAttri":"متوأمة مع فيزا، ويمكن استخدامها لدى المتاجر التجارية حول العالم والجهات المشاركة في نظام الجيل الثاني من الدرهم الإلكتروني "},
+				 {"cardAttri":"صالحة لمدة سنتين"},
+				 {"cardAttri":"مطبوع عليها رقم البطاقة والرقم المسلسل "},
+				 {"cardAttri":"مطبوع عليها اسم حامل البطاقة"},
+				 {"cardAttri":"Cardholder picture not printed on card"}
+			   ],
+			 "cardfeaturesp":"المقصود \"بالتعبئة\" هو الإيداع النقدي الأول الذي يتمّ تعبئة البطاقة به. يرجى الاحتفاظ برقم التفعيل الذي يمكنكم من خلاله تحديد الرقم السري المطبوع على إيصال التعبئة للتمكّن من إنشاء رمز المرور.",
+			 "cardfeature":
+			    [
+				  {"feature":"يمكن تعبئة البطاقة دون حساب مصرفي"},
+				  {"feature":"يمكن تعبئة البطاقة دون تسجيل"},
+				  {"feature":"Loaded through:"},
+				  {"feature":"All NBAD branches in the UAE"},
+				  {"feature":"All e-Dirham G2 ATMs/CDMs"},
+				  {"feature":"All NBAD ATMs/CDMs"}
+				],
+			 "cardreloadp":"المقصود \"بالتعبئة\" هو الإيداع النقدي الذي يلي المرّة الأولى ويتمّ تعبئة البطاقة بها. ",
+			 "cardreload":
+			    [
+				  {"reload":"يمكن تعبئة البطاقة دون حساب مصرفي"},
+				  {"reload":"يمكن تعبئة البطاقة دون تسجيل"},
+				  {"reload":"يمكن تعبئة البطاقة عبر:"},
+				  {"reload":"جميع فروع بنك أبوظبي الوطني في الدولة مقابل رسم قدره 8 دراهم"},
+				  {"reload":"All e-Dirham G2"},
+				  {"reload":"ATMs/CDMs for FREE"},
+				  {"reload":"أجهزة الصرّاف الآلي والإيداع النقدي التابعة لبنك أبوظبي الوطني مجّانا"}
+				]
+				
+		},
+
+		{
+			"cardimg"  : "bluecard",
+			"cardname" : "البطاقة الزرقاء",
+			"cardp"    : "The first and unique card that you can brand with your personal or company name. The Al Haslah Gold Card allows you to transfer larger amounts save and secure via the e-dirham payment platform.",
+			"cardDetail":
+			   [ 
+			     {
+							 "det1": "درهم 10.000,00",
+							 "det2": "الحد الأقصى"
+						 },
+						 {
+							 "det1": "Required",
+							 "det2": "Registration"
+						 },
+						 {
+							 "det1": "3 سنوات",
+							 "det2": "تاريخ الانتهاء"
+						 },
+						 {
+							 "det1": "25 درهماً",
+							 "det2": "سعر الشراء"
+				 }
+			   ],
+			"cardbg":"bluebg",
+			"cardAtrribute": 
+			   [
+			     {"cardAttri":"شريط مغناطيسي"},
+				 {"cardAttri":"متوأمة مع فيزا، ويمكن استخدامها لدى المتاجر التجارية حول العالم والجهات المشاركة في نظام الجيل الثاني من الدرهم الإلكتروني "},
+				 {"cardAttri":"صالحة لمدة سنتين"},
+				 {"cardAttri":"مطبوع عليها رقم البطاقة والرقم المسلسل "},
+				 {"cardAttri":"مطبوع عليها اسم حامل البطاقة"},
+				 {"cardAttri":"Cardholder picture not printed on card"}
+			   ],
+			 "cardfeaturesp":"المقصود \"بالتعبئة\" هو الإيداع النقدي الأول الذي يتمّ تعبئة البطاقة به. يرجى الاحتفاظ برقم التفعيل الذي يمكنكم من خلاله تحديد الرقم السري المطبوع على إيصال التعبئة للتمكّن من إنشاء رمز المرور.",
+			 "cardfeature":
+			    [
+				  {"feature":"يمكن تعبئة البطاقة دون حساب مصرفي"},
+				  {"feature":"يمكن تعبئة البطاقة دون تسجيل"},
+				  {"feature":"Loaded through:"},
+				  {"feature":"All NBAD branches in the UAE"},
+				  {"feature":"All e-Dirham G2 ATMs/CDMs"},
+				  {"feature":"All NBAD ATMs/CDMs"}
+				],
+			 "cardreloadp":"المقصود \"بالتعبئة\" هو الإيداع النقدي الذي يلي المرّة الأولى ويتمّ تعبئة البطاقة بها. ",
+			 "cardreload":
+			    [
+				  {"reload":"يمكن تعبئة البطاقة دون حساب مصرفي"},
+				  {"reload":"يمكن تعبئة البطاقة دون تسجيل"},
+				  {"reload":"يمكن تعبئة البطاقة عبر:"},
+				  {"reload":"جميع فروع بنك أبوظبي الوطني في الدولة مقابل رسم قدره 8 دراهم"},
+				  {"reload":"All e-Dirham G2"},
+				  {"reload":"ATMs/CDMs for FREE"},
+				  {"reload":"أجهزة الصرّاف الآلي والإيداع النقدي التابعة لبنك أبوظبي الوطني مجّانا"}
+				]
+		},
+
+		{
+			"cardimg"  : "redcard",
+			"cardname" : "البطاقة الزرقاء",
+			"cardp"    : "The first and unique card that you can brand with your personal or company name. The Al Haslah Gold Card allows you to transfer larger amounts save and secure via the e-dirham payment platform.",
+			"cardDetail":
+			   [ 
+			     {
+							 "det1": "درهم 10.000,00",
+							 "det2": "الحد الأقصى"
+						 },
+						 {
+							 "det1": "Required",
+							 "det2": "Registration"
+						 },
+						 {
+							 "det1": "3 سنوات",
+							 "det2": "تاريخ الانتهاء"
+						 },
+						 {
+							 "det1": "25 درهماً",
+							 "det2": "سعر الشراء"
+				 }
+			   ],
+			"cardbg":"redbg",
+			"cardAtrribute": 
+			   [
+			     {"cardAttri":"شريط مغناطيسي"},
+				 {"cardAttri":"متوأمة مع فيزا، ويمكن استخدامها لدى المتاجر التجارية حول العالم والجهات المشاركة في نظام الجيل الثاني من الدرهم الإلكتروني "},
+				 {"cardAttri":"صالحة لمدة سنتين"},
+				 {"cardAttri":"مطبوع عليها رقم البطاقة والرقم المسلسل "},
+				 {"cardAttri":"مطبوع عليها اسم حامل البطاقة"},
+				 {"cardAttri":"Cardholder picture not printed on card"}
+			   ],
+			 "cardfeaturesp":"المقصود \"بالتعبئة\" هو الإيداع النقدي الأول الذي يتمّ تعبئة البطاقة به. يرجى الاحتفاظ برقم التفعيل الذي يمكنكم من خلاله تحديد الرقم السري المطبوع على إيصال التعبئة للتمكّن من إنشاء رمز المرور.",
+			 "cardfeature":
+			    [
+				  {"feature":"يمكن تعبئة البطاقة دون حساب مصرفي"},
+				  {"feature":"يمكن تعبئة البطاقة دون تسجيل"},
+				  {"feature":"Loaded through:"},
+				  {"feature":"All NBAD branches in the UAE"},
+				  {"feature":"All e-Dirham G2 ATMs/CDMs"},
+				  {"feature":"All NBAD ATMs/CDMs"}
+				],
+			 "cardreloadp":"المقصود \"بالتعبئة\" هو الإيداع النقدي الذي يلي المرّة الأولى ويتمّ تعبئة البطاقة بها. ",
+			 "cardreload":
+			    [
+				  {"reload":"يمكن تعبئة البطاقة دون حساب مصرفي"},
+				  {"reload":"يمكن تعبئة البطاقة دون تسجيل"},
+				  {"reload":"يمكن تعبئة البطاقة عبر:"},
+				  {"reload":"جميع فروع بنك أبوظبي الوطني في الدولة مقابل رسم قدره 8 دراهم"},
+				  {"reload":"All e-Dirham G2"},
+				  {"reload":"ATMs/CDMs for FREE"},
+				  {"reload":"أجهزة الصرّاف الآلي والإيداع النقدي التابعة لبنك أبوظبي الوطني مجّانا"}
+				]
+		},
+
+		{
+			"cardimg"  : "greencard",
+			"cardname" : "البطاقة الحمراء",
+			"cardp"    : "The first and unique card that you can brand with your personal or company name. The Al Haslah Gold Card allows you to transfer larger amounts save and secure via the e-dirham payment platform.",
+			"cardDetail":
+			   [ 
+			     {
+							 "det1": "درهم 10.000,00",
+							 "det2": "الحد الأقصى"
+						 },
+						 {
+							 "det1": "Required",
+							 "det2": "Registration"
+						 },
+						 {
+							 "det1": "3 سنوات",
+							 "det2": "تاريخ الانتهاء"
+						 },
+						 {
+							 "det1": "25 درهماً",
+							 "det2": "سعر الشراء"
+				 }
+			   ],
+			"cardbg":"greenbg",
+			"cardAtrribute": 
+			   [
+			     {"cardAttri":"شريط مغناطيسي"},
+				 {"cardAttri":"متوأمة مع فيزا، ويمكن استخدامها لدى المتاجر التجارية حول العالم والجهات المشاركة في نظام الجيل الثاني من الدرهم الإلكتروني "},
+				 {"cardAttri":"صالحة لمدة سنتين"},
+				 {"cardAttri":"مطبوع عليها رقم البطاقة والرقم المسلسل "},
+				 {"cardAttri":"مطبوع عليها اسم حامل البطاقة"},
+				 {"cardAttri":"Cardholder picture not printed on card"}
+			   ],
+			 "cardfeaturesp":"المقصود \"بالتعبئة\" هو الإيداع النقدي الأول الذي يتمّ تعبئة البطاقة به. يرجى الاحتفاظ برقم التفعيل الذي يمكنكم من خلاله تحديد الرقم السري المطبوع على إيصال التعبئة للتمكّن من إنشاء رمز المرور.",
+			 "cardfeature":
+			    [
+				  {"feature":"يمكن تعبئة البطاقة دون حساب مصرفي"},
+				  {"feature":"يمكن تعبئة البطاقة دون تسجيل"},
+				  {"feature":"Loaded through:"},
+				  {"feature":"All NBAD branches in the UAE"},
+				  {"feature":"All e-Dirham G2 ATMs/CDMs"},
+				  {"feature":"All NBAD ATMs/CDMs"}
+				],
+			 "cardreloadp":"المقصود \"بالتعبئة\" هو الإيداع النقدي الذي يلي المرّة الأولى ويتمّ تعبئة البطاقة بها. ",
+			 "cardreload":
+			    [
+				  {"reload":"يمكن تعبئة البطاقة دون حساب مصرفي"},
+				  {"reload":"يمكن تعبئة البطاقة دون تسجيل"},
+				  {"reload":"يمكن تعبئة البطاقة عبر:"},
+				  {"reload":"جميع فروع بنك أبوظبي الوطني في الدولة مقابل رسم قدره 8 دراهم"},
+				  {"reload":"All e-Dirham G2"},
+				  {"reload":"ATMs/CDMs for FREE"},
+				  {"reload":"أجهزة الصرّاف الآلي والإيداع النقدي التابعة لبنك أبوظبي الوطني مجّانا"}
+				]
+		}
+
+	  ],
+  			 "learnmore": "اكتشف المزيد",
+			 "applynow" : "Apply Now",
+			 "attributes": "الخصائص",
+			 "features": "المميزات",
+			 "cardreload":"إعادة تعبئة البطاقة",
+			 "howtouse" : "طريقة الاستخدام",
+			 "howtousep": "E-Dirham is an easy, convenient and secure payment platform for everyone in the UAE. Use your Al Haslah card, Mobile or online solutions and much more with great ease. Find all your information here or contact our helpdesk if you require any further information.",
+			 "howtousepm":"E-Dirham is an easy, convenient and secure payment platform for everyone in the UAE.",
+			 "atm": "ATM's",
+			 "topup": "Top Up",
+			 "wheretouse": "أماكن الاستخدام",
+			 "wheretousep": "You can pay with e-dirham at most of the UAE Ministries, Merchants, Typing centers and much more. Find out all the locations to top up your accounts and make payments via the ED Kiosk, ED Mobile or Online.",
+			 "wheretousepm":"You can pay with e-dirham at most of the UAE Ministries, Merchants, Typing centers, and much more.",
+			 "ministry": "Ministry and authorities",
+			 "typingcenter": "Typing Center",
+			 "choose": "Choose what Suits best for me",
+			 "choosep":"E-Dirham wizard will help you find out which card suits best for your need",
+			 "whichcard":"Which card is right for you?",
+			 "trynow":"Try Now",
+			 "viewallcards":"View All Cards"
+	  
+  }
+		
+]

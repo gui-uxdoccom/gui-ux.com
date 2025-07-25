@@ -1,0 +1,58 @@
+<div  ng-controller="lastTransactionCtrl">
+  <div class="myWallet">
+            <h2>Wallet balance: 560.00 AED</h2>
+        </div>
+	<div class="container">
+       <div class="row">
+       <input type="text" placeholder="Search" name="amount">
+         <div class="howlst">
+           <a href="#/transactionDetail" class="txtgrey"><h6>Transaction 001 <span class="pull-right">230.00 AED</span></h6>
+           <p>Date: 30/09/2014</p>
+           <p>Organization: MOF</p>
+           <p>Amount: 230.00 AED</p> 
+           </a>
+              <a href="#/transactionDetail"><i class="glyphicon glyphicon-chevron-right"></i></a>
+         </div>
+          <div class="howlst grey">
+           <a href="#/transactionDetail" class="txtgrey"><h6>Transaction 002 <span class="pull-right">6,450.00 AED</span></h6>
+           <p>Date: 25/09/2014</p>
+           <p>Organization: MOF</p>
+           <p>Amount: 6,450.00 AED</p> 
+           </a>
+              <a href="#/transactionDetail"><i class="glyphicon glyphicon-chevron-right"></i></a>
+         </div>
+         <div class="howlst">
+           <a href="#/transactionDetail" class="txtgrey"><h6>Transaction 003 <span class="pull-right">230.00 AED</span></h6>
+           <p>Date: 25/09/2014</p>
+           <p>Organization: MOF</p>
+           <p>Amount: 230.00 AED</p> 
+           </a>
+              <a href="#/transactionDetail"><i class="glyphicon glyphicon-chevron-right"></i></a>
+         </div>
+          <div class="howlst grey">
+           <a href="#/transactionDetail" class="txtgrey"><h6>Transaction 004 <span class="pull-right">56.40 AED</span></h6>
+           <p>Date: 20/09/2014</p>
+           <p>Organization: MOF</p>
+           <p>Amount: 56.40 AED</p> 
+           </a>
+              <a href="#/transactionDetail"><i class="glyphicon glyphicon-chevron-right"></i></a>
+         </div>
+      </div>
+   </div> <!--row ends here-->
+</div><!-- container ends here-->
+       
+</div>
+
+<script>
+
+		  $(function() {
+            $("button.navbar-toggle").show();
+            $("#gliphBack").show();
+            $("#gliphBack").attr({
+              href: '#/home',
+            });
+            $("body").scrollTop(0);
+
+          });
+
+</script>

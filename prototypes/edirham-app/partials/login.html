@@ -1,0 +1,105 @@
+
+<div class="loginmobile" ng-controller="mainCtrl" >
+<style type="text/css">body{background-color:#f1f5f6}</style>
+<div id="userMlogin">
+    <h5>{{login}}</h5>
+    <input type="text" placeholder="{{username}}" name="username">
+    <input type="password" placeholder="{{password}}" class="pass" name="password">
+    <a href="#/home" class="btn orngbtn">{{login}}</a>
+    <a class="forgot" onClick="Mforgot()">Forgot your password?</a>
+    <a class="forgot" onClick="registerUser()">Don't have an account? Register now!</a>
+    <a href="#/home" class="forgot">Access the app as a guest</a>
+</div>
+
+<div id="forgotMpass">
+      <h5>{{forgotpass}}</h5>
+       <input type="text" placeholder="{{email}}" name="email">
+        <a class="btn orngbtn rem" onClick="Mremember()">{{remember}}</a>
+</div><!--forgotpass ends here-->
+
+<div id="msgMsend">
+       <h5>{{msgsend}}</h5>
+        <p>{{msgtxt}}</p>
+          <a href="#/login" class="btn blkbtn ok" onClick="ok()">{{ok}}</a>
+</div><!--forgotpass ends here-->
+
+<div id="registerUser">
+    <h5>Register your account</h5>
+    <label>Mobile number</label>
+    <input type="text" placeholder="Mobile no." name="username">
+    <label>First name</label>
+    <input type="text" placeholder="First name" name="firstname">
+    <label>Middle name</label>
+    <input type="text" placeholder="Middle name" name="middlename">
+    <label>Last name</label>
+    <input type="text" placeholder="Last name" name="lasname">
+    <label>Date of birth</label>
+    <input type="date" placeholder="DOB" name="dob">
+    <label>Email</label>
+    <input type="email" placeholder="Email" name="email">
+    <label>Confirm your email</label>
+    <input type="email" placeholder="Confirm email" name="confirmemail">
+    <label>Nationality</label>
+    <select>
+    	<option selected="true">Select the emirate</option>
+    	<option>Emirati</option>
+    </select>
+    <label>Emirate</label>
+    <select>
+    	<option selected="true">Select the emirate</option>
+    	<option>Ajman</option>
+    	<option>Abu Dhabi</option>
+    	<option>Dubai</option>
+    	<option>Fujairah</option>
+    	<option>Ras al Khaimah</option>
+    	<option>Sharjah</option>
+    	<option>Umm Al Quwain</option>
+    </select>
+    <label>Emirates ID</label>
+    <input type="tel" placeholder="Emirates ID no" name="emiratesid">
+    <button type="submit" class="btn orngbtn" onclick="okMessage()">Register</button>
+    <a class="forgot" onClick="cancel()">Cancel</a>
+</div>
+
+
+</div>
+
+<!-- <div ng-include="'partials/footer.html'" ng-controller="footerCtrl" ></div> -->
+
+<script>
+			$(function()
+				{
+					$("button.navbar-toggle").hide();
+					$("#gliphBack").hide();
+				});
+			function Mforgot(){ 
+		 		$("#userMlogin").hide('slow');
+				$("#forgotMpass").show(); 
+		       }
+		    function Mremember(){
+		 		$("#forgotMpass").hide('slow');
+				$("#msgMsend").show(); 
+		      }
+			function registerUser(){
+			    $("#userMlogin").hide('slow'); 
+		 		$("#registerUser").show();   
+		      }
+		      function cancel(){
+			    $(window).scrollTop(); 
+			    $("#registerUser").hide('slow');   
+			    $("#userMlogin").show(); 
+		 		
+		      }
+		     function okMessage(){
+			    $("#registerUser").hide('slow');
+		 		$("#msgMsend").show();
+		 		$(window).scrollTop(); 
+		      }
+			function ok(){
+				$("#userMlogin").show(); 
+		 		$("#forgotMpass").hide();   
+				$("#msgMsend").hide('slow');
+				$(window).scrollTop(); 
+			}
+
+</script>

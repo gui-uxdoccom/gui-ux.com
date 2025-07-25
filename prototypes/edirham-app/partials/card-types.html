@@ -1,0 +1,148 @@
+<div  ng-controller="cardsCtrl" ng-repeat="cards in cardsVariable"> 
+	    <!-- Carousel
+    ================================================== -->
+    <div id="cardtypecarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#cardtypecarousel" data-slide-to="0" class="active"><span class="bggold"></span></li>
+        <li data-target="#cardtypecarousel" data-slide-to="1"><span class="bgblue"></span></li>
+        <li data-target="#cardtypecarousel" data-slide-to="2"><span class="bgred"></span></li>
+        <li data-target="#cardtypecarousel" data-slide-to="3" class="brdr"><span class="bggreen"></span></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item" ng-repeat="cardtypes in cards.cardtypes"  ng-class="{active : $first}">
+        <div class="{{cardtypes.cardbg}}"></div>
+          <div class="container margtop">
+            <div class="col-md-7">
+                <h5>{{cardtypes.cardname}}</h5>
+                <p>{{cardtypes.cardp}}</p>
+                <a href="#/cards-apply" class="btn orngbtn hidden-xs hidden-sm">{{cards.applynow}}</a>
+            </div> <!--col-md-6 ends here-->
+            <div class="col-md-5">
+              <ul class="cardtypdet">
+                <li ng-repeat="cardDetail in cardtypes.cardDetail"  class="col-md-5 col-sm-6 col-xs-6">{{cardDetail.det1}}<br/><span>{{cardDetail.det2}}</span></li>
+                </ul>
+            </div> <!--col-md-6 ends here-->
+            </div>
+            <div class="prpty hidden-xs hidden-sm">
+              <div class="container">
+               <div class="col-md-4">
+               		<h5>{{cards.attributes}}</h5>
+                    <ul>
+                    <li ng-repeat="cardAtrribute in cardtypes.cardAtrribute">{{cardAtrribute.cardAttri}}</li>
+                    </ul>
+                </div>
+               <div class="col-md-4">
+                    <h5>{{cards.features}}</h5>
+                    <p>{{cardtypes.cardfeaturesp}}</p>
+                    <ul>
+                    <li ng-repeat="cardfeature in cardtypes.cardfeature">{{cardfeature.feature}}</li>
+                    </ul>
+               </div>
+               <div class="col-md-4">
+               		<h5>{{cards.cardreload}}</h5>
+                    <p>{{cardtypes.cardreloadp}}</p>
+                    <ul>
+                    <li ng-repeat="cardreload in cardtypes.cardreload">{{cardreload.reload}}</li>
+                    </ul>
+               </div>
+              </div>
+            </div><!-- prop for web ends here-->
+            <div class="hidden-lg hidden-md">
+                 <div class="panel-group" id="accordion1">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <span class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">
+                          {{cards.attributes}}
+                        <i class="indicator glyphicon glyphicon-circle-down"></i></span>
+                      </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <ul class="orngbul">
+                                <li ng-repeat="cardAtrribute in cardtypes.cardAtrribute">{{cardAtrribute.cardAttri}}</li>
+                                </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <span class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo">
+                           {{cards.features}} 
+                        <i class="indicator glyphicon glyphicon-circle-down"></i></span>
+                      </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <p>{{cardtypes.cardfeaturesp}}</p>
+                                <ul class="orngbul">
+                                <li ng-repeat="cardfeature in cardtypes.cardfeature">{{cardfeature.feature}}</li>
+                                </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <span class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree">
+                      {{cards.cardreload}} 
+                    <i class="indicator glyphicon glyphicon-circle-down"></i></span>
+                  </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>{{cardtypes.cardreloadp}}</p>
+                                <ul class="orngbul">
+                                <li ng-repeat="cardreload in cardtypes.cardreload">{{cardreload.reload}}</li>
+                                </ul>
+                  </div>
+                </div>
+              </div>
+                 </div>
+    	 </div><!-- prop for mob ends here-->
+        </div><!-- item ends here-->
+        
+     </div>
+    </div><!-- /.carousel -->
+
+
+
+    <!-- How to use and where to use
+    ================================================== -->
+	<div class="container hidden-xs hidden-sm">
+       <div class="row">
+       	  <div class="col-md-6">
+          <div class=" brdrbox margrgt">
+              <h5>{{cards.howtouse}}</h5>
+              <p>{{cards.howtousep}}</p>
+                <a href="#/card-howtouse" class="btn blkbtn">{{cards.atm}}</a><br/>
+                <a href="#/card-howtouse" class="btn blkbtn">{{cards.topup}}</a>
+              </div>
+            </div>
+          
+          <div class="col-md-6 ">
+          <div class=" brdrbox marglft">
+          <h5>{{cards.wheretouse}}</h5>
+          <p class="margb">{{cards.wheretousep}}</p>
+            <a href="#/where-to-use" class="btn blkbtn">{{cards.ministry}}</a><br/>
+            <a href="#/where-to-use" class="btn blkbtn">{{cards.typingcenter}}</a>
+          </div>
+          </div>
+       </div> <!--row ends here-->
+	 </div><!-- container ends here-->
+     
+      <div class="howlst hidden-lg hidden-md">
+         <h6>{{cards.howtouse}}</h6>
+         <p>{{cards.howtousepm}}</p>
+            <a href="#/card-howtouse"><i class="glyphicon glyphicon-chevron-right"></i></a>
+       </div>
+       <div class="howlst hidden-lg hidden-md">
+         <h6>{{cards.wheretouse}}</h6>
+         <p>{{cards.wheretousepm}}</p>
+            <a href="#/where-to-use"><i class="glyphicon glyphicon-chevron-right"></i></a>
+       </div>
+</div>
+
+<div ng-include="'partials/footer.html'" ng-controller="footerCtrl" ></div>

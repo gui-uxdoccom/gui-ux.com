@@ -1,0 +1,89 @@
+<div  ng-controller="cardsCtrl" ng-repeat="cards in cardsVariable"> 
+    <!-- Master Head
+    ================================================== -->
+    <div class="cardbnr">
+         <h5>{{cards.pagetitle}}</h5>
+    </div><!-- master head ends here-->
+
+    <!-- Types or Cards
+    ================================================== -->
+    <ul class="cards">
+        <li class="wow fadeInLeft" ng-repeat="cardtypes in cards.cardtypes">
+          <div class="container">
+            <div class="col-md-5 hidden-lg hidden-md">
+                <img class="cardimg" ng-src="images/{{cardtypes.cardimg}}.png" alt="{{cardtypes.cardname}}"/>
+            </div>
+            <h5>{{cardtypes.cardname}}</h5>
+            <div class="col-md-7">
+                <p>{{cardtypes.cardp}}</p>
+                <ul class="det">
+                <li ng-repeat="cardDetail in cardtypes.cardDetail" class="col-lg-3 col-md-2 col-sm-6 col-xs-6">{{cardDetail.det1}}<br/><span>{{cardDetail.det2}}</span></li>
+                </ul>
+                <div class="cardbtns">
+                    <a href="#/card-types" class="btn orngbtn">{{cards.learnmore}}</a>
+                    <a href="#/cards-apply" class="btn blkbtn hidden-xs hidden-sm">{{cards.applynow}}</a>
+                </div>
+            </div> <!--col-md-7 ends here-->
+            <div class="col-md-5 hidden-xs hidden-sm">
+                <img class="cardimg" ng-src="images/{{cardtypes.cardimg}}.png" alt="{{cardtypes.cardname}}"/>
+            </div>
+          </div>
+        </li>
+    </ul>
+
+
+    <!-- How to use and where to use
+    ================================================== -->
+	<div class="container hidden-xs hidden-sm">
+       <div class="row">
+       	  <div class="col-md-6">
+          <div class=" brdrbox margrgt">
+              <h5>{{cards.howtouse}}</h5>
+              <p>{{cards.howtousep}}</p>
+                <a href="#" class="btn blkbtn">{{cards.atm}}</a><br/>
+                <a href="#" class="btn blkbtn">{{cards.topup}}</a>
+              </div>
+            </div>
+          
+          <div class="col-md-6 ">
+          <div class=" brdrbox marglft">
+          <h5>{{cards.wheretouse}}</h5>
+          <p>{{cards.wheretousep}}</p>
+            <a href="#" class="btn blkbtn">{{cards.ministry}}</a><br/>
+            <a href="#" class="btn blkbtn">{{cards.typingcenter}}</a>
+          </div>
+          </div>
+       </div> <!--row ends here-->
+	 </div><!-- container ends here-->
+     
+      <div class="howlst hidden-lg hidden-md">
+         <h6>{{cards.howtouse}}</h6>
+         <p>{{cards.howtousepm}}</p>
+            <a href="#/card-howtouse"><i class="glyphicon glyphicon-chevron-right"></i></a>
+       </div>
+       <div class="howlst hidden-lg hidden-md">
+         <h6>{{cards.wheretouse}}</h6>
+         <p>{{cards.wheretousepm}}</p>
+            <a href="#/card-howtouse"><i class="glyphicon glyphicon-chevron-right"></i></a>
+       </div>
+
+
+    <!-- choose best
+    ================================================== -->
+  <section class="choose hidden-xs hidden-sm">
+  <div class="chos wow fadeIn">
+      <h5>{{cards.choose}}</h5>
+      <p>{{cards.choosep}}</p>
+      <a href="#/which-card" class="btn blkbtn">Try Now</a>
+	</div><!-- container ends here-->
+	</section>
+	
+        <div class="orngsec hidden-lg hidden-md">
+         <h6>{{cards.whichcard}}</h6>
+         <p>{{cards.choosep}}</p>
+            <a href="#/which-card"><i class="glyphicon glyphicon-chevron-right"></i></a>
+       </div>
+
+</div>
+
+<div ng-include="'partials/footer.html'" ng-controller="footerCtrl" ></div>

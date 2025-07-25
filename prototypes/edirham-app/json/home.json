@@ -1,0 +1,48 @@
+[
+  {  "bnrtitle" :  "Easy, Convenient and Secure", 
+  	 "bnrp": "A new payment platform for \n everyone in the UAE",
+	 "learnmore":"Learn More",
+	 "eservices":"E-Dirham Services",
+	 "servicedesc":
+	  [
+	     {
+			 "icoimg":"prepard-ico",
+			 "icotitle":"Prepaid and \n Credit cards",
+			 "icop":"Use the Al Haslah cards to pay for your service fees at more 2700 point of sale devices across the United Arab Emirates. The blue and green Al Haslah cards you can use anywhere when supported by Visa."
+			 
+		 },
+		 {
+			 "icoimg":"efund-ico",
+			 "icotitle":"Electronic funds\n Transfer Point of Sale",
+			 "icop":"Payments of or card reloads can be done via the E-Dirham electronic payment collection machines that are in line with the latest international networks."
+			 
+		 },
+		 {
+			 "icoimg":"ecart-ico",
+			 "icotitle":"Online Payment & \n e-commerce",
+			 "icop":"Payments can be made via the internet or using your smart phone with the highest protection and security levels. Payments with non E-Dirham cards like Visa or MasterCard are also accepted."
+			 
+		 }
+	  
+	  ],
+	 "buisness":"Buisness",
+	 "buisnessp":"E-Dirham an easy, secure and convenient payment platform in the United Arab Emirates. We encourages business and merchant to join the e-dirham network to reap the many benefits it has for businesses.",
+	 "buislist":
+	 [
+	   {"blistimg":"bis-img1",
+	    "blisttitle":"Benifits of integrating \n with E-Dirham"
+	   },
+	   {"blistimg":"bis-img2",
+	    "blisttitle":"How it works"
+	   },
+	   {"blistimg":"bis-img3",
+	    "blisttitle":"EDirham Framework"
+	   }
+	 ],
+	 "readmore":"Read More"	,
+	 
+	 
+	 "whatisedirham": "What is edirham"  
+  }
+		
+]

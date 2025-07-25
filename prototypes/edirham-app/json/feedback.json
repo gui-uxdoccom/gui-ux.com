@@ -1,0 +1,11 @@
+[
+  {   "feedback": "Feedback",
+	  "custname" : "Customer Name",
+	  "mobno": "Mobile Number",
+	  "email": "Email",
+	  "messge":"Message",
+	  "submit":"Submit"
+	 
+  }
+		
+]

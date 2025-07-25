@@ -1,0 +1,32 @@
+<div  ng-controller="homeCtrl">
+  <div class="myWallet">
+            <h2>Wallet balance: 560.00 AED</h2>
+        </div>
+	<div class="container">
+       <div class="row">
+       
+       	  <div class="howlst">
+         <a href="#/edwallet" class="txtgrey"><h6>Ed Wallet </h6>
+         <p>Manage your ED-Wallet</p></a>
+            <a href="#/edwallet"><i class="glyphicon glyphicon-chevron-right"></i></a>
+       </div>
+       <div class="howlst hidden-lg hidden-md">
+         <a href="#/lastTransaction" class="txtgrey"><h6>Last transactions</h6>
+         <p>Your latest transaction was on 30/09/2014. See more transactions</p></a>
+            <a href="#/lastTransaction"><i class="glyphicon glyphicon-chevron-right"></i></a>
+       </div>
+          </div>
+       </div> <!--row ends here-->
+	 </div><!-- container ends here-->
+       
+</div>
+
+<script>
+
+		  $(function() {
+            $("button.navbar-toggle").show();
+            $("#gliphBack").hide();
+            $(window).scrollTop(0);
+          });
+
+</script>

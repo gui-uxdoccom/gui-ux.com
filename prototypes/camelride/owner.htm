@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CAMEL RACE</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+    <link rel="stylesheet" href="http://jquerymobile.com/demos/1.3.0/docs/_assets/css/jqm-demos.css" />
+    <link rel="stylesheet" href="css/my.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://jquerymobile.com/demos/1.3.0/docs/_assets/js/jquery.mobile.demos.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+</head>
+<body>
+<div data-role="page" id="demo-page" class="my-page" data-theme="b">
+	<div data-role="header" data-theme="b">
+		<h1>CAMEL RACE</h1>
+		<a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+	</div><!-- /header -->
+<div data-role="panel" data-position-fixed="true" data-theme="c" id="nav-panel">
+        <ul data-role="listview" data-theme="c" class="nav-search"><li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+            <li>Menu</li>
+            <li><a href="menu.htm" data-transition="slide" data-direction="reverse">HOME</a></li>
+            <li><a href="add.htm" data-transition="slide">Add a Camel</a></li>
+			<li><a href="find-owner.htm" data-transition="slide">Owner Information</a></li>
+        </ul>
+    </div><!-- /panel -->
+	<div data-role="content">
+    <h2 class="title">Details</h2>
+    <p class="hint">Information following</p>
+	<ul data-role="listview" data-inset="true" data-shadow="false" data-theme="c">
+        <li data-role="fieldcontain">
+            <p>Camel registry NO</p>
+            <label>123456789</label>
+        </li>
+        <li data-role="fieldcontain">
+            <p>Owner Name</p>
+            <label>Marcel Mc Grantee</label>
+        </li>
+        <li data-role="fieldcontain">
+            <p>Arabic Name</p>
+            <label>ضصثقلاتن شسيم</label>
+        </li>
+        <li data-role="fieldcontain">
+            <p>Details</p>
+            <label>Info01</label>
+        </li>
+        <li data-role="fieldcontain">
+            <p>Details</p>
+            <label>Info02</label>
+        </li>
+    </ul>
+    <br/>
+        <a href="menu.htm" data-role="button" data-direction="reverse" data-transition="slide" data-theme="c">Back to menu</a>
+
+  </div><!-- /content -->
+    
+    <div data-role="footer" data-theme="c">
+        <h3>Prototype</h3>
+    </div><!-- /footer -->
+
+</div><!-- /page -->
+</body>
+</html>

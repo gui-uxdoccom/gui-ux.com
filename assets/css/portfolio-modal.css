@@ -1,0 +1,223 @@
+/* Portfolio Modal Styles */
+
+.h-80 {
+    height: 30rem!important
+}
+
+.portfolio-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    backdrop-filter: blur(10px);
+}
+
+.portfolio-modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content {
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
+    margin: 2rem;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+    transform: scale(0.8) translateY(50px);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.portfolio-modal.active .modal-content {
+    transform: scale(1) translateY(0);
+}
+
+.modal-image-container {
+    position: relative;
+    background: linear-gradient(135deg, #36a67e 0%, #2d8660 100%);
+    padding: 2rem;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-image {
+    max-width: 100%;
+    max-height: 60vh;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.modal-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.modal-nav:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.modal-nav.prev {
+    left: 20px;
+}
+
+.modal-nav.next {
+    right: 20px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.modal-close:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+}
+
+.modal-info {
+    padding: 2rem;
+    background: white;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+}
+
+.modal-description {
+    color: #6b7280;
+    line-height: 1.6;
+}
+
+.modal-counter {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    backdrop-filter: blur(10px);
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .gap-12{
+        margin-top:40px!important
+    }
+    
+    .modal-content {
+        max-width: 85vw;
+        max-height: 85vh;
+        margin: 1rem;
+    }
+    
+    .modal-image-container {
+        padding: 1rem;
+        min-height: 300px;
+    }
+    
+    .modal-image {
+        max-height: 50vh;
+    }
+    
+    .modal-info {
+        padding: 1.5rem;
+    }
+    
+    .modal-title {
+        font-size: 1.25rem;
+    }
+    
+    .modal-nav {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+    
+    .modal-nav.prev {
+        left: 10px;
+    }
+    
+    .modal-nav.next {
+        right: 10px;
+    }
+}
+
+/* Image loading animation */
+.modal-image.loading {
+    opacity: 0.5;
+    transform: scale(0.95);
+}
+
+/* Smooth slide animations */
+@keyframes slideInFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.slide-in-right {
+    animation: slideInFromRight 0.3s ease-out;
+}
+
+.slide-in-left {
+    animation: slideInFromLeft 0.3s ease-out;
+}

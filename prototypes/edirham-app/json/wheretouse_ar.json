@@ -1,0 +1,66 @@
+[
+  {  "pagetitle1"  : "البطاقات",
+     "pagetitle2"  : "أماكن الاستخدام", 
+ 	 "typingcntr"  : "Typing Center",
+	 "option1"     : "Option 1",
+	 "findbylocation" : "Find by location...",
+	 "seachico"    : "search-ico",
+	 "wheretouselist":
+	   [
+	     {
+	       "place" : "Palmira Typing & Photocopy",
+		   "city"  : "أبوظبي",
+		   "pone"  : "+971 2 495 1000",
+		   "getdir": "Get Directions"
+		 },
+		 {
+	       "place" : "Al Amin Typing Bureau",
+		   "city"  : "أبوظبي",
+		   "pone"  : "+971 2 495 1000",
+		   "getdir": "Get Directions"
+		 },
+		 {
+	       "place" : "Bin Habib Typing Center",
+		   "city"  : "أبوظبي",
+		   "pone"  : "+971 2 495 1000",
+		   "getdir": "Get Directions"
+		 },
+		 {
+	       "place" : "Sed ut perspiciatis unde omnis iste",
+		   "city"  : "أبوظبي",
+		   "pone"  : "+971 2 495 1000",
+		   "getdir": "Get Directions"
+		 },
+		 {
+	       "place" : "Palmira Typing & Photocopy",
+		   "city"  : "أبوظبي",
+		   "pone"  : "+971 2 495 1000",
+		   "getdir": "Get Directions"
+		 },
+		 {
+	       "place" : "Bader Al Budoor Management Services",
+		   "city"  : "أبوظبي",
+		   "pone"  : "+971 2 495 1000",
+		   "getdir": "Get Directions"
+		 },
+		 {
+	       "place" : "Palmira Typing & Photocopy",
+		   "city"  : "Abu Dhabi",
+		   "pone"  : "+971 2 495 1000",
+		   "getdir": "Get Directions"
+		 },
+		 {
+	       "place" : "Lorem ipsum dolor sit amet",
+		   "city"  : "أبوظبي",
+		   "pone"  : "+971 2 495 1000",
+		   "getdir": "Get Directions"
+		 }
+	   
+	   ]
+	 
+	 
+	   
+	 
+  }
+		
+]

@@ -1,0 +1,56 @@
+<div  ng-controller="listPaymentMethodCtrl">
+  <div class="myWallet">
+            <h2>Wallet balance: 560.00 AED</h2>
+        </div>
+	<div class="container">
+       <div class="row">
+       <h5>List of payment methods</h5>
+         <div class="howlst">
+            <a href="#/cardDetail" class="txtgrey"><h6>Card 001 <i class="glyphicon title glyphicon-star"></i></h6>
+            <p>Active - Primary</p>
+            </a>
+            <a href="#/transactionDetail"><i class="glyphicon glyphicon-chevron-right"></i></a>
+         </div>
+          <div class="howlst">
+           <a href="#/cardDetail" class="txtgrey"><h6>Card 002</h6>
+              <p>Active</p>
+           </a>
+              <a href="#/cardDetail"><i class="glyphicon glyphicon-chevron-right"></i></a>
+         </div>
+         <div class="howlst blue">
+           <a href="#/cardDetail" class="txtgrey"><h6>Card 003 </h6>
+           <p>Pending for activation</p>
+           </a>
+              <a href="#/cardDetail"><i class="glyphicon glyphicon-chevron-right"></i></a>
+         </div>
+         <div class="howlst red">
+           <a href="#/cardDetail" class="txtgrey"><h6>Card 004</h6>
+           <p>Expired</p>
+           </a>
+              <a href="#/cardDetail"><i class="glyphicon glyphicon-chevron-right"></i></a>
+         </div>
+          <div class="howlst">
+           <a href="#/cardDetail" class="txtgrey"><h6>Card 005</h6>
+              <p>Active</p>
+           </a>
+              <a href="#/cardDetail"><i class="glyphicon glyphicon-chevron-right"></i></a>
+         </div>
+      </div>
+   </div> <!--row ends here-->
+</div><!-- container ends here-->
+       
+</div>
+
+<script>
+
+		  $(function() {
+            $("button.navbar-toggle").show();
+            $("#gliphBack").show();
+            $("#gliphBack").attr({
+              href: '#/home',
+            });
+            $("body").scrollTop(0);
+
+          });
+
+</script>

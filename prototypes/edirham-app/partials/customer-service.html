@@ -1,0 +1,97 @@
+<div  ng-controller="customer-serviceCtrl" ng-repeat="cust in custserviceVariable"> 
+    <!-- Master Head
+    ================================================== -->
+    <div class="orng-patrnBg">
+         <h5>{{cust.pagetitle}}</h5>
+    </div><!-- master head ends here-->
+    
+  <article class="care hidden-xs hidden-sm">  
+    <div class="container margtop">
+        <h5>{{cust.custsupptitle}} </h5>
+        <p><pre>{{cust.custsupdesc}}</pre></p>
+    	
+        <ul class="orngbul">
+        <li ng-repeat="custsuplst in cust.custsuplst">{{custsuplst.suplst}}</li>
+        </ul>
+    </div>
+        
+    <div class="lightblubg"> 
+    	<div class="container">   
+        <h5>{{cust.sms}}</h5>
+        <p><pre>{{cust.smsp}}</pre></p>
+        <ul class="orngbul">
+            <li ng-repeat="smslst in cust.smslst">{{smslst.smslist}}</li>
+        </ul>
+        </div>
+	</div>
+    
+    <div class="container margtop">
+    <h5>{{cust.g2web}}</h5>
+    <p><pre>{{cust.g2webp}}</pre></p>
+    <ul class="orngbul">
+        <li ng-repeat="g2weblst in cust.g2weblst">{{g2weblst.g2weblist}}</li>
+    </ul>
+    </div>
+    
+  </article>
+  
+  <div class="hidden-lg hidden-md">
+     <div class="panel-group" id="accordion">
+ 	  <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <span class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+              {{cust.custsupptitle}}
+            <i class="indicator glyphicon glyphicon-circle-down"></i></span>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse">
+          <div class="panel-body">
+            <p><pre>{{cust.custsupdesc}}</pre></p>
+    	
+        <ul class="orngbul">
+        <li ng-repeat="custsuplst in cust.custsuplst">{{custsuplst.suplst}}</li>
+        </ul>
+          </div>
+        </div>
+      </div>
+  	  <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <span class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+               {{cust.sms}} 
+            <i class="indicator glyphicon glyphicon-circle-down"></i></span>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+          <div class="panel-body">
+            <p><pre>{{cust.smsp}}</pre></p>
+        <ul class="orngbul">
+            <li ng-repeat="smslst in cust.smslst">{{smslst.smslist}}</li>
+        </ul>
+          </div>
+        </div>
+      </div>
+  	  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <span class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+         {{cust.g2web}}
+        <i class="indicator glyphicon glyphicon-circle-down"></i></span>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+         <p><pre>{{cust.g2webp}}</pre></p>
+    <ul class="orngbul">
+       <li ng-repeat="g2weblst in cust.g2weblst">{{g2weblst.g2weblist}}</li>    
+    </ul>
+      </div>
+    </div>
+  </div>
+     </div>
+     </div>
+    
+</div>
+
+<div ng-include="'partials/footer.html'" ng-controller="footerCtrl" ></div>

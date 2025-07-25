@@ -1,0 +1,211 @@
+<div  ng-controller="businessCtrl" ng-repeat="business in businessVariable">     
+    
+    <!-- Master Head
+    ================================================== -->
+    <div class="buisbnr">
+         <h5>{{business.pagetitle}}</h5>
+    </div><!-- master head ends here-->
+    
+    <div class="benef container hidden-xs hidden-sm">
+	<h5>{{business.Benefitstitle}}</h5>
+    <div class="col-md-6">
+        <div class="prpty">
+            <ul>
+            <li ng-repeat = "prpty1 in business.prpty1">{{prpty1.prptyDesc}}</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="col-md-6">
+        <div class="prpty">
+            <ul>
+			   <li ng-repeat = "prpty2 in business.prpty2">{{prpty2.prptyDesc}}</li>
+            </ul>
+        </div>
+    </div>
+	</div>
+    
+     <!-- Icons Carousel
+    ================================================== -->
+    <div id="iconcarousel" class="carousel slide hidden-lg hidden-md">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#iconcarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#iconcarousel" data-slide-to="1"></li>
+        <li data-target="#iconcarousel" data-slide-to="2"></li>
+        <li data-target="#iconcarousel" data-slide-to="3"></li>
+        <li data-target="#iconcarousel" data-slide-to="4"></li>
+        <li data-target="#iconcarousel" data-slide-to="5"></li>
+     </ol>
+      <div class="carousel-inner">
+        <div class="item" ng-repeat = "iconcarousel in business.iconcarousel" ng-class="{active : $first}">
+          <div class="container">
+            <figure><img ng-src="images/{{iconcarousel.iconimg}}.png" alt="{{iconcarousel.iconimg}}"/>
+            <figcaption>{{iconcarousel.iconcaption}}</figcaption></figure>
+          </div>
+        </div>
+      </div>
+    </div><!-- /icons .carousel -->
+
+    <!-- video 
+    ================================================== -->
+    <div class="bvideo hidden-xs hidden-sm">
+    <video  controls>
+      <source src="videos/E-Dirham-Interviews-HQ.mp4" type="video/mp4">
+      <source src="videos/E-Dirham-Interviews-HQ.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>
+     </div>
+     
+     <div class="bmvideo hidden-lg hidden-md lightblubg padbot">
+     <div class="container">
+    <video  controls>
+      <source src="videos/E-Dirham-Interviews-HQ.mp4" type="video/mp4">
+      <source src="videos/E-Dirham-Interviews-HQ.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>
+     </div>
+     </div>
+     
+    <!-- icons 
+    ================================================== -->
+    <div class="bicons hidden-xs hidden-sm">
+      <div class="container">
+    	<div class="col-md-2" ng-repeat = "iconcarousel in business.iconcarousel">
+            <figure><img ng-src="images/{{iconcarousel.iconimg}}.png" alt="{{iconcarousel.iconimg}}"/>
+            <figcaption>{{iconcarousel.iconcaption}}</figcaption></figure>
+        </div>
+    </div>  
+   </div><!--bicons ends here-->
+   
+    <!-- edirham framework 
+    ================================================== -->
+   <section class="container bfrmwrk">
+       <div class="col-md-5 hidden-xs hidden-sm">
+       <img ng-src="images/{{business.bfrmwrkimg}}.jpg" alt="edirham card"/>
+       </div>
+       <div class="col-md-7 col-sm-12 col-xs-12">
+       <h5 class="wid">{{business.bfrmwrktitl}}</h5>
+       <p class="clearfix">{{business.bfrmwrkp}}</p>
+       </div>
+       <div class="col-md-5 hidden-lg hidden-md">
+       <img ng-src="images/{{business.bfrmwrkimg}}.jpg" alt="edirham card"/>
+       </div>
+   </section>
+
+    <!-- how it works framework 
+    ================================================== -->
+	<section class="bhow hidden-sm hidden-xs">
+    	<div class="container">
+        <h5>{{business.howitworks}}</h5>
+        <p class="bhowp">{{business.bhowp}}</p>
+            <div class="col-md-6">
+                <ul class="bhowlist">
+                <li ng-repeat = "bhowlist in business.bhowlist1"><p>{{bhowlist.bhowlistp}}</p></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="bhowlist">
+                 <li ng-repeat = "bhowlist in business.bhowlist2"><p>{{bhowlist.bhowlistp}}</p></li>
+                </ul>
+                </div>
+        </div>
+    </section>
+    
+    <div class="hidden-lg hidden-md">
+         <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <span class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                  <pre class="prestyl">{{business.Benefitstitle}}</pre>
+                <i class="indicator glyphicon glyphicon-circle-down"></i></span>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse">
+              <div class="panel-body">
+                <div class="col-md-6">
+                    <div class="orngbul">
+                        <ul>
+                        <li ng-repeat = "prpty1 in business.prpty1">{{prpty1.prptyDesc}}</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="orngbul">
+                        <ul>
+                           <li ng-repeat = "prpty2 in business.prpty2">{{prpty2.prptyDesc}}</li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <span class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                  {{business.howitworks}}
+                <i class="indicator glyphicon glyphicon-circle-down"></i></span>
+              </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+              <div class="panel-body">
+                <p>{{business.bhowp}}</p>
+                <div class="col-md-6">
+                    <ul class="bhowlist">
+                    <li ng-repeat = "bhowlist in business.bhowlist1"><p>{{bhowlist.bhowlistp}}</p></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="bhowlist">
+                     <li ng-repeat = "bhowlist in business.bhowlist2"><p>{{bhowlist.bhowlistp}}</p></li>
+                    </ul>
+                    </div>
+              </div>
+            </div>
+          </div>
+          
+         </div>
+         </div>
+
+   
+   <!-- Sapein starts here
+    ================================================== -->
+    <section class="sapien hidden-xs hidden-sm">
+    <div class="container">
+    <h5>{{business.becomemerch}}</h5>
+    <p>{{business.becomemerchp}}</p>
+    <div class="midbtn"><a href="#" class="btn blkbtn">{{business.contact}}</a></div>
+    </div>
+    </section> <!--sapien ends here-->
+    
+        <div class="orngsec hidden-lg hidden-md">
+         <h6>{{business.becomemerch}}?</h6>
+         <p>{{business.wouldulike}}</p>
+            <a href="#"><i class="glyphicon glyphicon-chevron-right"></i></a>
+       </div>
+    
+</div>
+
+<div ng-include="'partials/footer.html'" ng-controller="footerCtrl" ></div>
+
+<script>
+$('#iconcarousel').carousel({
+  interval: 2000
+})
+		$( window ).load(function() {
+		function toggleChevron(e) {
+			$(e.target)
+				.prev('.panel-heading')
+				.find("i.indicator")
+				.toggleClass('glyphicon-circle-down glyphicon-circle-up');
+		}
+		$('#accordion').on('hidden.bs.collapse', toggleChevron);
+		$('#accordion').on('shown.bs.collapse', toggleChevron);
+		
+		});
+
+
+</script>

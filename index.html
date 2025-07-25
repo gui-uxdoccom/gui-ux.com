@@ -1,0 +1,630 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guilherme Rodrigues - UX Designer or just a designer in the digital space and AI era</title>
+    <base href="https://gui-ux.com/" />
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NGGB8Q');</script>
+    <!-- End Google Tag Manager -->
+    
+    <script src='https://cdn.tailwindcss.com/3.4.16'></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' />
+    <link href='https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css' rel='stylesheet'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css' />
+     
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#36a67e',
+                        secondary: '#efefef',
+                        accent: '#fff'
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+     <!-- Custom Portfolio Modal Styles -->
+    <link rel='stylesheet' href='assets/css/portfolio-modal.css' />
+   
+</head>
+<body class="bg-white text-gray-900 overflow-x-hidden">
+    
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NGGB8Q"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-lg border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <a href="#home" class="flex items-center space-x-2">
+                        <img src="https://gui-ux.com/assets/images/logo.png" alt="gui-ux logo" class="h-8 w-auto">
+                    </a>
+                </div>
+                
+                <div class="hidden md:block">
+                    <div class="flex items-center space-x-8">
+                        <a href="#home" class="text-gray-700 hover:text-primary transition-colors duration-300 font-medium">Home</a>
+                        <a href="#about" class="text-gray-700 hover:text-primary transition-colors duration-300 font-medium">About</a>
+                        <a href="#works" class="text-gray-700 hover:text-primary transition-colors duration-300 font-medium">Works</a>
+                        <a href="#contact" class="text-gray-700 hover:text-primary transition-colors duration-300 font-medium">Contact</a>
+                    </div>
+                </div>
+                
+                <button class="md:hidden">
+                    <i class="fas fa-bars text-gray-700"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-green-50 via-white to-gray-50"></div>
+        
+        <div class="absolute top-20 right-10 w-32 h-32 bg-primary/10 rounded-full blur-2xl animate-pulse"></div>
+        <div class="absolute bottom-20 left-10 w-48 h-48 bg-green-100/50 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        
+        <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <div class="inline-block bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-6">
+                        Hey there, I'm Guil
+                    </div>
+                    
+                    <h1 class="text-5xl lg:text-7xl font-bold leading-tight mb-6">
+                        A User <span class="text-gray-400">experience</span>
+                        <br>
+                        <span class="bg-gradient-to-r from-primary to-green-600 bg-clip-text text-transparent">designer</span>
+                    </h1>
+                    
+                    <p class="text-xl text-gray-600 leading-relaxed mb-8 max-w-lg">
+                        From Brazil to the Middle East. Working and collaborating to get a better digital world, considering that there is a lot to be done on the physical one. When he can, jumps on motorbike to ride in the Globe of Death!
+                    </p>
+                    
+                    <div class="flex items-center space-x-6">
+                        <a href="#about" class="inline-flex items-center bg-primary text-white px-8 py-4 rounded-full font-medium hover:bg-green-700 transition-all duration-300 transform hover:scale-105">
+                            Know more about me
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        <div class="flex items-center space-x-4">
+                            <a href="https://ae.linkedin.com/in/uxguilherme" class="w-12 h-12 bg-gray-100 hover:bg-primary hover:text-white rounded-full flex items-center justify-center transition-all duration-300">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://www.twitter.com/globo_rodrigues" class="w-12 h-12 bg-gray-100 hover:bg-primary hover:text-white rounded-full flex items-center justify-center transition-all duration-300">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="relative">
+                        <div class="absolute inset-0 bg-gradient-to-br from-primary/20 to-green-600/20 rounded-2xl transform rotate-6"></div>
+                        <div class="relative bg-white p-8 rounded-2xl shadow-2xl">
+                            <img src="https://gui-ux.com/assets/images/guil.jpg" alt="Guil Rodrigues" class="w-full h-100 object-cover rounded-xl">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="text-4xl lg:text-5xl font-bold text-center mb-16">
+                    About <span class="text-primary">Me</span>
+                </h2>
+            </div>
+            
+            <div class="grid lg:grid-cols-3 gap-12">
+                <div class="lg:col-span-1" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="bg-white rounded-2xl p-8 shadow-lg">
+                        <div class="text-center mb-8">
+                            <div class="w-32 h-32 mx-auto mb-6 relative">
+                                <img src="https://gui-ux.com/assets/images/guil.jpg" alt="Guil Rodrigues / UX Designer" class="w-full h-full object-cover rounded-full">
+                                <div class="absolute inset-0 border-4 border-primary/20 rounded-full"></div>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Guilherme Rodrigues</h3>
+                            <p class="text-gray-600">UX Designer & a Tech Enthusiast</p>
+                        </div>
+                        
+                        <div class="space-y-4">
+                            <div class="flex items-center space-x-3">
+                                <i class="fas fa-map-marker-alt text-primary w-5"></i>
+                                <span class="text-gray-600"> Abu Dhabi and Riyadh</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <i class="fas fa-phone text-primary w-5"></i>
+                                <a href="tel:+971543454514" class="text-primary hover:underline">(971) 54 345 4514</a>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <i class="fas fa-envelope text-primary w-5"></i>
+                                <a href="mailto:contact@gui-ux.com" class="text-primary hover:underline">contact@gui-ux.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8 pt-8 border-t">
+                            <div class="flex space-x-3">
+                                <a href="#contact" class="flex-1 bg-primary text-white text-center py-3 rounded-lg font-medium hover:bg-green-700 transition-colors duration-300">
+                                    Send Message
+                                </a>
+                                <a href="https://gui-ux.com/assets/resume/Digital Design - Guil Rodrigues - Resume.pdf" class="flex-1 bg-gray-200 text-gray-700 text-center py-3 rounded-lg font-medium hover:bg-gray-300 transition-colors duration-300">
+                                    Download CV
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:col-span-2 space-y-8">
+                    <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="bg-white rounded-2xl p-8 shadow-lg">
+                            <h3 class="text-2xl font-bold mb-6 flex items-center">
+                                <i class="fas fa-user text-primary mr-3"></i>
+                                Who I am
+                            </h3>
+                            <p class="text-gray-700 leading-relaxed">
+                                Son, Dad, Husband and UX Designer :) I'm very enthusiastic for things that challenge me. Things that come with "You can't". Igniter of motivation.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                        <div class="bg-white rounded-2xl p-8 shadow-lg">
+                            <h3 class="text-2xl font-bold mb-6 flex items-center">
+                                <i class="fas fa-rocket text-primary mr-3"></i>
+                                What I Do
+                            </h3>
+                            <div class="space-y-4 text-gray-700 leading-relaxed">
+                                <p>
+                                    From UX design to strategic digital transformation. I bring people together, bridging the gap between cutting-edge technology and human-centered design, helping businesses unlock growth through intelligent user experiences (real customers) and data-driven insights.
+                                </p>
+                                <p>
+                                    With over 20 years in the space, I've seen the digital revolution firsthand - from legacy systems to today's AI-driven ecosystem. This journey gave me a unique superpower: translating complex technology into seamless user experiences that actually drive business results and revenue growth. And let's not forget, user experience too.
+                                </p>
+                                <p>
+                                    <strong>My specialty? Turning ambitious visions into market-ready MVPs that deliver immediate ROI.</strong> I don't just design interfaces - I architect digital experiences that transform how businesses connect with their customers. Whether it's a big corporation or a startup's breakthrough product, I've consistently delivered solutions that reduce time-to-market by while increasing user engagement and conversion rates. My AI-enhanced design methodology ensures every pixel serves a strategic purpose, every interaction drives measurable outcomes.
+                                </p>
+                            </div>
+                            
+                            <div class="mt-6">
+                                <h4 class="font-semibold text-lg mb-4">Expertise Summary:</h4>
+                                <div class="grid md:grid-cols-2 gap-3">
+                                    <div class="flex items-center space-x-2">
+                                        <i class="fas fa-check text-primary text-sm"></i>
+                                        <span class="text-sm">Customer Experience (NPS and Operations)</span>
+                                    </div>
+                                    <div class="flex items-center space-x-2">
+                                        <i class="fas fa-check text-primary text-sm"></i>
+                                        <span class="text-sm">Digital Transformation</span>
+                                    </div>
+                                    <div class="flex items-center space-x-2">
+                                        <i class="fas fa-check text-primary text-sm"></i>
+                                        <span class="text-sm">Design Thinking</span>
+                                    </div>
+                                    <div class="flex items-center space-x-2">
+                                        <i class="fas fa-check text-primary text-sm"></i>
+                                        <span class="text-sm">User Experience Design</span>
+                                    </div>
+                                    <div class="flex items-center space-x-2">
+                                        <i class="fas fa-check text-primary text-sm"></i>
+                                        <span class="text-sm">Research & Benchmarking</span>
+                                    </div>
+                                    <div class="flex items-center space-x-2">
+                                        <i class="fas fa-check text-primary text-sm"></i>
+                                        <span class="text-sm">Visual and User Interface Design</span>
+                                    </div>
+                                    <div class="flex items-center space-x-2">
+                                        <i class="fas fa-check text-primary text-sm"></i>
+                                        <span class="text-sm">Design Systems</span>
+                                    </div>
+                                    <div class="flex items-center space-x-2">
+                                        <i class="fas fa-check text-primary text-sm"></i>
+                                        <span class="text-sm">User & Usability Audit</span>
+                                    </div>
+                                    <div class="flex items-center space-x-2">
+                                        <i class="fas fa-check text-primary text-sm"></i>
+                                        <span class="text-sm">Wireframes, Prototypes and Rapid Prototypes</span>
+                                    </div>
+                                    <div class="flex items-center space-x-2">
+                                        <i class="fas fa-check text-primary text-sm"></i>
+                                        <span class="text-sm">Analytics & monitoring</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="works" class="py-20">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="text-4xl lg:text-5xl font-bold text-center mb-8">
+                    Featured <span class="text-primary">Works</span>
+                </h2>
+                <p class="text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto">
+                    A glimpse of some of the design and UX work I've done.
+                </p>
+            </div>
+            
+            <div class="mb-12" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <div class="flex justify-center">
+                    <div class="bg-gray-100 rounded-full p-2">
+                        <button class="filter-btn active px-6 py-3 rounded-full font-medium transition-all duration-300" data-filter="all">All</button>
+                        <button class="filter-btn px-6 py-3 rounded-full font-medium transition-all duration-300" data-filter="ux">UX</button>
+                        <button class="filter-btn px-6 py-3 rounded-full font-medium transition-all duration-300" data-filter="web">Web</button>
+                        <button class="filter-btn px-6 py-3 rounded-full font-medium transition-all duration-300" data-filter="mobile">Mobile</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="portfolio-grid">
+                <div class="portfolio-item ux" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="group relative overflow-hidden rounded-2xl bg-white shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 cursor-pointer"
+                         data-portfolio-item
+                         data-image="https://gui-ux.com/assets/images/works/card-sorting.jpg"
+                         data-title="Card Sorting"
+                         data-description="Strategic UX research methodology used to understand how users categorize information, enabling the creation of intuitive navigation and information architecture for digital products.">
+                        <div class="aspect-w-16 aspect-h-12 overflow-hidden">
+                            <img src="https://gui-ux.com/assets/images/works/card-sorting.jpg" alt="UX - Card sorting" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors duration-300">Card Sorting</h3>
+                            <p class="text-gray-600 text-sm">UX Research methodology for information architecture</p>
+                        </div>
+                        <div class="absolute inset-0 bg-primary/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <button class="bg-white text-primary px-6 py-3 rounded-full font-medium">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item ux" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="group relative overflow-hidden rounded-2xl bg-white shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 cursor-pointer"
+                         data-portfolio-item
+                         data-image="https://gui-ux.com/assets/images/works/user-journey.jpg"
+                         data-title="User Journey"
+                         data-description="Comprehensive mapping of user experiences across multiple touchpoints, identifying pain points and opportunities to optimize the customer journey and improve conversion rates.">
+                        <div class="aspect-w-16 aspect-h-12 overflow-hidden">
+                            <img src="https://gui-ux.com/assets/images/works/user-journey.jpg" alt="UX - User Journey" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors duration-300">User Journey</h3>
+                            <p class="text-gray-600 text-sm">Mapping user experiences across touchpoints</p>
+                        </div>
+                        <div class="absolute inset-0 bg-primary/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <button class="bg-white text-primary px-6 py-3 rounded-full font-medium">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item ux" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="group relative overflow-hidden rounded-2xl bg-white shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 cursor-pointer"
+                         data-portfolio-item
+                         data-image="https://gui-ux.com/assets/images/works/personas.jpg"
+                         data-title="User Personas"
+                         data-description="Research-driven user archetypes that represent key audience segments, providing strategic foundation for design decisions and ensuring products meet real user needs and behaviors.">
+                        <div class="aspect-w-16 aspect-h-12 overflow-hidden">
+                            <img src="https://gui-ux.com/assets/images/works/personas.jpg" alt="UX - Personas" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors duration-300">User Personas</h3>
+                            <p class="text-gray-600 text-sm">Creating detailed user archetypes for design decisions</p>
+                        </div>
+                        <div class="absolute inset-0 bg-primary/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <button class="bg-white text-primary px-6 py-3 rounded-full font-medium">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item ux" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="group relative overflow-hidden rounded-2xl bg-white shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 cursor-pointer"
+                         data-portfolio-item
+                         data-image="https://gui-ux.com/assets/images/works/wireframes.jpg"
+                         data-title="Wireframes & Prototypes"
+                         data-description="Progressive design process from low-fidelity wireframes to interactive high-fidelity prototypes, enabling rapid iteration and stakeholder validation before development begins.">
+                        <div class="aspect-w-16 aspect-h-12 overflow-hidden">
+                            <img src="https://gui-ux.com/assets/images/works/wireframes.jpg" alt="UX - Wireframes and prototypes" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors duration-300">Wireframes & Prototypes</h3>
+                            <p class="text-gray-600 text-sm">Low-fi to high-fi prototyping process</p>
+                        </div>
+                        <div class="absolute inset-0 bg-primary/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <button class="bg-white text-primary px-6 py-3 rounded-full font-medium">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item mobile" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="group relative overflow-hidden rounded-2xl bg-white shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 cursor-pointer"
+                         data-portfolio-item
+                         data-image="https://gui-ux.com/assets/images/works/Camel-race.png"
+                         data-title="Camel Race APP"
+                         data-description="Mobile application designed for UAE's traditional camel racing sport, featuring real-time tracking, cultural aesthetics, and intuitive navigation for both locals and tourists.">
+                        <div class="aspect-w-16 aspect-h-12 overflow-hidden">
+                            <img src="https://gui-ux.com/assets/images/works/Camel-race.png" alt="UAE Camel Race app" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors duration-300">Camel Race APP</h3>
+                            <p class="text-gray-600 text-sm">Mobile application for UAE traditional sport</p>
+                        </div>
+                        <div class="absolute inset-0 bg-primary/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <button class="bg-white text-primary px-6 py-3 rounded-full font-medium">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item web" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="group relative overflow-hidden rounded-2xl bg-white shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 cursor-pointer"
+                         data-portfolio-item
+                         data-image="https://gui-ux.com/assets/images/works/unimed.png"
+                         data-title="Unimed Porto Alegre"
+                         data-description="Complete healthcare platform redesign focusing on patient experience, streamlined appointment booking, and digital health records management for Brazil's leading healthcare cooperative.">
+                        <div class="aspect-w-16 aspect-h-12 overflow-hidden">
+                            <img src="https://gui-ux.com/assets/images/works/unimed.png" alt="Unimed Porto Alegre" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors duration-300">Unimed Porto Alegre</h3>
+                            <p class="text-gray-600 text-sm">Healthcare platform redesign</p>
+                        </div>
+                        <div class="absolute inset-0 bg-primary/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <button class="bg-white text-primary px-6 py-3 rounded-full font-medium">View Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Modal -->
+    <div id="portfolioModal" class="portfolio-modal">
+        <div class="modal-content">
+            <div class="modal-image-container">
+                <img id="modalImage" class="modal-image" src="" alt="">
+                <button class="modal-nav prev" id="modalPrev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="modal-nav next" id="modalNext">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <button class="modal-close" id="modalClose">
+                    <i class="fas fa-times"></i>
+                </button>
+                <div class="modal-counter" id="modalCounter">1 / 6</div>
+            </div>
+            <div class="modal-info">
+                <h3 class="modal-title" id="modalTitle">Project Title</h3>
+                <p class="modal-description" id="modalDescription">Project description goes here...</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="py-20 bg-gradient-to-r from-primary to-green-600 text-white">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="text-3xl lg:text-4xl font-bold mb-6">
+                    Do you have something in mind?<span class="text-primary">Let's talk!</span>
+                </h2>
+                <p class="text-xl opacity-90 mb-8">
+                    Ready to transform your digital experience? Let's collaborate and create something amazing together.
+                </p>
+                <a href="mailto:contact@gui-ux.com?subject=Freelance opportunity&body=Hi Guilherme, I have an opportunity! :)" 
+                   class="inline-flex items-center bg-white text-primary px-8 py-4 rounded-full font-medium hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">
+                    <i class="fas fa-envelope mr-2"></i>
+                    Yep, just send me an e-mail :)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="text-4xl lg:text-5xl font-bold text-center mb-16">
+                    Get in <span class="text-primary">touch</span>
+                </h2>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <div class="bg-white rounded-2xl p-8 shadow-lg">
+                        <h3 class="text-2xl font-bold mb-6">Send me a message</h3>
+                        
+                        <form id="contact-form" class="space-y-6">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Name</label>
+                                <input id="inputName" type="text" class="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors duration-300">
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                                <input type="email" id="inputEmail" class="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors duration-300">
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Subject</label>
+                                <input id="inputSubject" type="text" class="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors duration-300">
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                                <textarea id="InputTextarea" rows="5" class="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors duration-300"></textarea>
+                            </div>
+                            
+                            <button type="button" id="btn-send-email" class="w-full bg-primary text-white py-4 rounded-lg font-medium hover:bg-green-700 transition-colors duration-300 transform hover:scale-105">
+                                Get in touch
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="bg-white rounded-2xl p-8 shadow-lg mb-8">
+                        <h3 class="text-2xl font-bold mb-6">Contact Information</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-map-marker-alt text-primary"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Location</h4>
+                                    <address class="text-gray-600 not-italic">
+                                        Abu Dhabi & Riyadh, UAE / KSA
+                                    </address>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-phone text-primary"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Mobile Number</h4>
+                                    <a href="tel:+971543454514" class="text-primary hover:underline">+971 54 345 4514</a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-envelope text-primary"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Email</h4>
+                                    <a href="mailto:contact@gui-ux.com" class="text-primary hover:underline">contact@gui-ux.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-primary to-green-600 rounded-2xl p-8 text-white">
+                        <h3 class="text-xl font-bold mb-4">Let's work together!</h3>
+                        <p class="opacity-90 mb-6">
+                            I'm always open to discussing new opportunities, interesting projects, or just having a chat about Design, AI, UX, Motorcycles, Classic Cars, Coffee...
+                        </p>
+                        <div class="flex space-x-4">
+                            <a href="https://ae.linkedin.com/in/uxguilherme" class="w-10 h-10 bg-white/20 hover:bg-white/30 rounded-lg flex items-center justify-center transition-colors duration-300">
+                                <i class="fab fa-linkedin text-white"></i>
+                            </a>
+                            <a href="https://www.twitter.com/globo_rodrigues" class="w-10 h-10 bg-white/20 hover:bg-white/30 rounded-lg flex items-center justify-center transition-colors duration-300">
+                                <i class="fab fa-twitter text-white"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center">
+                <img src="https://gui-ux.com/assets/images/logo.png" alt="gui-ux logo" class="h-8 w-auto mx-auto mb-4 opacity-80">
+                <p class="text-gray-400">
+                    © 2025 Guilherme Rodrigues - User Experience Designer, or just Designer.
+                </p>
+                <p class="text-gray-500 text-sm mt-2">
+                    Crafted with passion ❤️
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#home" class="fixed bottom-8 right-8 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center shadow-lg hover:bg-green-700 transition-all duration-300 transform hover:scale-110 z-50" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src='https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js'></script>
+    
+    <!-- Custom JavaScript -->
+    <script src='assets/js/main.js'></script>
+    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!-- Enhanced JSON-LD Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": ["WebSite", "Person"],
+        "name": "Guilherme Rodrigues - Design and UX",
+        "alternateName": ["Gui-UX", "Guil UX Designer", "UX Designer Dubai", "Guilherme Rodrigues UX", "UX Designer in Saudi Arabia", "UX Designer in Riyadh"],
+        "url": "https://www.gui-ux.com",
+        "description": "Guilherme, AKA Guil, is a User Experience Designer with +20 years of experience in various industries. He started working with UX at HP in Brazil while on the R&D team for Walmart's digital products. In 2012, he moved to Dubai, and since then, he has participated in key projects, such as the 2nd generation of SmartGates for Dubai airports and the Digital transformation at Etisalat. Today, Guil Rodrigues Heads Digital Experiences and Platforms at PIF, in Riyadh - KSA. Outside tech, Guil's passions are good filtered coffee, classic cars, and of course, riding in the Globe of Death (dangerglobe.com)",
+        "author": {
+            "@type": "Person",
+            "name": "Guilherme Rodrigues",
+            "givenName": "Guilherme",
+            "familyName": "Rodrigues",
+            "jobTitle": "UX Designer",
+            "worksFor": {
+                "@type": "Organization",
+                "name": "GUI-UX"
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Abu Dhabi & Riyadh",
+                "addressRegion": "Abu Dhabi & Riyadh",
+                "addressCountry": "UAE / KSA"
+            },
+            "nationality": "Brazilian",
+            "email": "contact@gui-ux.com",
+            "telephone": "+971543454514",
+            "url": "https://www.gui-ux.com",
+            "sameAs": [
+                "https://ae.linkedin.com/in/uxguilherme",
+                "https://www.twitter.com/globo_rodrigues"
+            ],
+            "knowsAbout": [
+                "User Experience Design",
+                "Digital Transformation", 
+                "Design Thinking",
+                "User Interface Design",
+                "Wireframing",
+                "Prototyping",
+                "User Research",
+                "Usability Testing",
+                "Design Systems",
+                "Customer Experience"
+                "Vibe coding"
+            ]
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.gui-ux.com/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+        },
+        "mainEntity": {
+            "@type": "ProfessionalService",
+            "name": "UX Design Services",
+            "provider": {
+                "@type": "Person",
+                "name": "Guilherme Rodrigues"
+            },
+            "serviceType": "User Experience Design",
+            "areaServed": ["Dubai", "Riyadh", "KSA", "Saudi Arabia", "UAE", "Global"],
+            "availableLanguage": ["English", "Portuguese"],
+        }
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<div  ng-controller="where-to-useCtrl" ng-repeat="whereto in wheretouseVariable">     
+<!-- Master Head
+    ================================================== -->
+    <div class="orng-patrnBg twotit">
+         <h5><span>{{whereto.pagetitle1}}</span><br/>{{whereto.pagetitle2}}</h5>
+    </div><!-- master head ends here-->
+
+   <div class="lightblubg wuse">
+   	<div class="container">
+		<div class="col-md-6">
+        	<select name="types" class="selectpicker">
+            	<option>option1</option>
+                <option>option2</option>
+            </select>
+        </div>
+        <div class="col-md-6">
+        	<input class="srch" type="text" placeholder="{{whereto.findbylocation}}"/><a href="#" class="srchtn"><img src="images/{{whereto.seachico}}.png"/></a>
+        </div>   
+    </div>
+   </div>
+
+	
+   <div class="container">
+     <ul class="wheretouse">
+       <li ng-repeat="wheretouselist in whereto.wheretouselist">
+          <div class="col-md-6">{{wheretouselist.place}}</div>
+       	  <div class="col-md-2 loct">{{wheretouselist.city}}</div>
+          <div class="col-md-2 phone"><a href="tel:+971 2 495 1000">{{wheretouselist.pone}}</a></div>
+          <div class="col-md-2 getdir"><a href="#">{{wheretouselist.getdir}}</a></div>	
+       </li>
+     </ul>
+   
+   </div>     
+    
+
+
+</div>
+
+<div ng-include="'partials/footer.html'" ng-controller="footerCtrl" ></div>

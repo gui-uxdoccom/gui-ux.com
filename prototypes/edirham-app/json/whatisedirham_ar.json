@@ -1,0 +1,61 @@
+[
+  {  "pagetitle"  :  "ما هو الدرهم الإلكتروني؟", 
+  	 "whatsedirhamp": "تفخر وزارة المالية وبنك أبوظبي الوطني بتوفير الجيل الثاني من منظومة الدرهم الإلكتروني التي تعدّ طريقة سهلة وآمنة لتحصيل الإيرادات ولسداد رسوم الخدمات الحكومية وغير الحكومية.",
+	 "edhsProp":
+	   [
+	     {
+			 "prptyTitle":"Government",
+			 "prptyp":"E-Dirham is the official payment platform initiated by the Ministry of Finance and the National Bank of Abu Dhabi providing a convenient and secure central collection process for all federal authorities. \n \n  Adopt E-Dirham for your public services and standardize your transaction and collecting processes in one secure unified system.",
+			 "prptylst":
+			   [
+			     {"plst":"A Cohesive Automated System"},
+				 {"plst":"Ease of use"},
+				 {"plst":"Easy auditing"},
+				 {"plst":"Secure"}
+			   
+			   ]
+		 },
+		 
+	     {
+			 "prptyTitle":"Corporate",
+			 "prptyp":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. \n \n Accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis.",
+			 "prptylst":
+			   [
+			     {"plst":"Standardized System"},
+				 {"plst":"Easy to use e-wallet"},
+				 {"plst":"Track your federal spend"},
+				 {"plst":"Secure"},
+				 {"plst":"Effect on your financial statements"}
+			   
+			   ]
+		 },
+	     {
+			 "prptyTitle":"Consumers",
+			 "prptyp":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum.",
+			 "prptylst":
+			   [
+			     {"plst":"Ease of use"},
+				 {"plst":"All-in-one"},
+				 {"plst":"Tailor-made offering"},
+				 {"plst":"Cost-effective"}
+			   
+			   ]
+		 }
+	   
+	   ],
+	 
+	 
+			 "applynow" : "Apply Now",
+			 "attributes": "الخصائص",
+			 "features": "المميزات",
+			 "cardreload":"إعادة تعبئة البطاقة",
+			 "rhoncus":"Rhoncus Sapien Nunc",
+			 "rhoncusp":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+			 "year1":"2010",
+			 "year2":"2011",
+			 "year3":"2012"
+			 
+	  
+  }
+		
+]

@@ -1,0 +1,63 @@
+[
+  {  "pagetitle"  :  "الأعمال", 
+  	 "Benefitstitle" : "مزايا متكاملة مع الدرهم الإلكتروني", 
+     "prpty1" : 
+	  [
+		{"prptyDesc" : "The highest level of security, based on international and UAE government standards"},
+		{"prptyDesc" : "No more physical cash collection, saving time and money on administration costs and collecting charges"},
+		{"prptyDesc" : "Low charges for using the e-dirham platform compared to other platforms"},
+		{"prptyDesc" : "Large network of distribution channels"},
+		{"prptyDesc" : "Allow your customers to pay online"}
+	  ],
+     "prpty2" : 
+	  [
+		{"prptyDesc" : "Allow your customers to pay via their mobile device"},
+		{"prptyDesc" : "Allow your customers to pay via e-dirham cards"},
+		{"prptyDesc" : "Clear and real time overview of all your collections and payment via e-dirham"},
+		{"prptyDesc" : "E-Dirham is expanding and growing their network even further every day. Adding new services and functionalities to the e-dirham platform"}
+	  ],
+	  "iconcarousel":
+	   [
+	     {"iconimg"     : "lowcharges-ico",
+		  "iconcaption" : "مصاريف بسيطة"
+		 },
+	     {"iconimg"     : "bigchannel-ico",
+		  "iconcaption" : "قنوات توزيع كبيرة"
+		 },
+		 {"iconimg"     : "secure-ico",
+		  "iconcaption" : "آمن"
+		 },
+		 {"iconimg"     : "247-ico",
+		  "iconcaption" : "دعم متواصل للعملاء 24/7 "
+		 },
+		 {"iconimg"     : "avail-ico",
+		  "iconcaption" : "متوافر عبر جميع الشبكات"
+		 },
+		 {"iconimg"     : "nocash-ico",
+		  "iconcaption" : "لا يتطلب تحصيلاً للأموال"
+		 }
+	   ],
+	  "Bvideo"     : "video-dummy",
+	  "bfrmwrkimg" : "cardinhand",
+	  "bfrmwrktitl": "منظومة الدرهم الإلكتروني",
+	  "bfrmwrkp"   : "E-Dirham makes use of highly secure framework called MPLS within the private cloud solutions specifically designed for the UAE government. This frameworks allows full transactions to be done under 1.4 seconds with real time reporting and abiding to all international security standards. Online and mobile solutions as well as the POS system are making use of this framework. ",
+	  "howitworks" : "طريقة الاستخدام",
+	  "bhowp" : "An extensive business analysis will take place to see where e-dirham ease and optimize the business workflows",
+	  "bhowlist1" : 
+	   [
+	    {"bhowlistp": "A team of experts from both from the Ministry of Finance and National Bank of Abu Dhabi are involved to support the integration"},
+		{"bhowlistp": "Thorough testing and analysis take place prior to the launch ensuring that everything is working accordingly to the highest standards"},
+		{"bhowlistp": "Certificates will be issued when tests have been successful, making you compliant with national and international security standards"}
+	   ],
+	   "bhowlist2" : 
+	   [
+	    {"bhowlistp": "A dedicated team from e-dirham will help to train your staff on how to use the platform for your organization along with all necessary documentation"},
+		{"bhowlistp": "An after a successful test, with a real customer completing the full payment cycle monitored by the ministry. An official statement and signing                ceremony will take place to congratulate you with having e-dirham."}
+	   ],
+	   "becomemerch" : "التسجيل لتصبح متعاملاً",
+	   "becomemerchp": "Would you like to have e-dirham working also for your organisation, then please contact the e-dirham on boarding team. They’ll asses what would be suitable for your Organisation and how that can be implemented in the best and easy way. ",
+	   "contact" : "Contact Us"	   ,
+	   "wouldulike": "Would you like to have e-dirham working also for your organisation, then please contact the e-dirham on boarding team."
+  }
+		
+]

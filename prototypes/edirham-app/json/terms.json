@@ -1,0 +1,47 @@
+[
+  {  "pagetitle"  : "Terms & Conditions",
+ 	 "def"  : "1. Definitions",
+	 "deflist":
+	  [
+	    {"deflst": "\"Bank\" means National Bank of Abu Dhabi (NBAD), its successor(s) and or assignee(s);"},
+		{"deflst": "\"Ministry\" means the Ministry of Finance of United Arab Emirates"},
+		{"deflst": "\"Cardholder\" means a person in whose name a Card Account as defined below is maintained by the Bank;"},
+		{"deflst": "\"Card\" means the Bank and the Ministry’s e-Dirham G2 Gold Al Haslah Prepaid Card issued to the Cardholder;"},
+		{"deflst": "\"Card Account\" means the account maintained by the Bank in relation to any Card purchases, cash withdrawals, and any other charges applied to Cardholder's Card;"},
+		{"deflst": "\"Balance\" means the funds available for use on a Card that is net of payments made in to Card a/c and amount used + the fee & commission applied by the Bank;"},
+	    {"deflst": "\"PIN\": mean a personal identification number selected by the Cardholder;"},
+		{"deflst": "\"Activation\": Code means the number printed on the receipt of the first Card load to enable you to set your “Passcode”."},
+		{"deflst": "\"Passcode\":   means the number made up of 8 digits used to log on to the e-Dirham website, access the call center services and proceed with online payment."}
+	  ],
+	"usecard": "2. Use of the card",
+	"usecardp": "The Card must be signed by the Cardholder immediately on receipt and may only be used by the cardholder during the validity period printed on the Card subject to the right of the Bank, in its absolute discretion and without prior notice, at any time to withdraw the right to use the Card in case of the violation of the terms and procedures.",
+	"cardamt" : "3. The card account",
+	"cardamtp": "The Bank will debit the Card Account with the amounts of all fees, Card payments and cash withdrawals.",
+	"fees" : "4. Fees & Charges",
+	"feesp": "Load, reload, Balance Enquiry, cash withdrawal and decline transactions will be subjected to charges as per the Ministry which may vary at the sole discretion of the Ministry.",
+	"safegaurd":"5. Safeguarding the card, PIN and activation Code",
+	"safgaurdlist":
+	 [
+	    {"safegaurdlst":"Card and related PIN and Activation codes are issued by the Bank at the full risk of the Cardholder. The Bank shall not be held responsible in any way whatsoever for the loss/misuse of the Card and/or PIN and/or Activation code."},
+		{"safegaurdlst":"The Bank will not be held responsible in case a lost or stolen Card is used prior to receipt by the Bank of a notice of such loss or theft through  the several means provided for doing so."}	 
+	 ],
+	"refund": "6. Refunds and cardholders claims",
+	"refundlist":
+	 [
+	   {"refundlst":"Refunds will be made only upon receipt by the bank of a refund voucher or verification acceptable to it or the ministry. No claim by a Cardholder against a third party may be the subject of a defense or counter claim against the Bank and/or the Ministry."},
+	   {"refundlst":"The Bank shall not be responsible for goods or services purchased by the Cardholder on the Card and in all circumstances the Cardholder must honor all vouchers/transactions executed."}	 
+	 ],
+	"general":"General",
+	"generallist": 
+	  [
+	    {"gnrlst":"The Bank may at its sole discretion, disclose any information related to Card, Card A/c and Cardholder which it deems fit to its agent(s), regulatory authorities, other legal bodies and the Ministry."},
+		{"gnrlst":"The Bank shall not be liable if it is unable to perform its obligations due (directly or indirectly) to the failure of any machine, data processing system or transaction link, or anything outside the control of the Bank, its agents or sub-contractors."}	,
+		{"gnrlst":"These Terms & Conditions, shall be governed, construed and interpreted in accordance with the laws of the United Arab Emirates. Federal courts in  Abu Dhabi shall have the jurisdiction to resolve and settle any dispute, which may arise out of or in connection with These Terms & Conditions."}	    
+	  
+	  ]
+	
+	
+	 
+  }
+		
+]

@@ -1,0 +1,42 @@
+<div  ng-controller="termsCtrl" ng-repeat="terms in termsVariable">     
+    <!-- Master Head
+    ================================================== -->
+    <div class="orng-patrnBg">
+         <h5>{{terms.pagetitle}}</h5>
+    </div><!-- master head ends here-->
+    
+    <div class="container margtop terms">
+    <h5>{{terms.def}}</h5>
+    <ol type="i">
+        <li ng-repeat="deflist in terms.deflist">{{deflist.deflst}}</li>
+    </ol>
+
+    <h5>{{terms.usecard}}</h5>
+	<p>{{terms.usecardp}}</p>
+
+    <h5>{{terms.cardamt}}</h5>
+	<ol>
+    <li>{{terms.cardamtp}}</li>
+    </ol>
+
+    <h5>{{terms.fees}}</h5>
+	<p>{{terms.feesp}}</p>
+    
+    <h5>{{terms.safegaurd}}</h5>
+    <ol>
+    <li ng-repeat="safgaurdlist in terms.safgaurdlist">{{safgaurdlist.safegaurdlst}}</li>
+	</ol>
+    
+    <h5>{{terms.refund}}</h5>
+    <ol>
+    <li ng-repeat="refundlist in terms.refundlist">{{refundlist.refundlst}}</li>
+    </ol>
+    
+    <h5>{{terms.general}}</h5>
+    <ol>
+    <li ng-repeat="generallist in terms.generallist">{{generallist.gnrlst}}</li>
+    </ol>
+    </div>
+</div>
+
+<div ng-include="'partials/footer.html'" ng-controller="footerCtrl" ></div>

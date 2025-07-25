@@ -1,0 +1,21 @@
+<div  ng-controller="feedbackCtrl" ng-repeat="feedback in feedbackVariable">     
+
+    <!-- Master Head
+    ================================================== -->
+   <div class="orng-patrnBg">
+         <h5>{{feedback.feedback}}</h5>
+    </div><!-- master head ends here--> 
+             <div class="container custype feedbck">
+					<ul class="col-md-6">
+                      <li><label>{{feedback.custname}}</label><input type="text" name="custname"/></li>
+                      <li><label>{{feedback.mobno}}</label><input type="text" name="mobno"/></li>
+                      <li><label>{{feedback.email}}</label><input type="text" name="email"/></li>
+                      <li><label>{{feedback.messge}}</label>
+                      <textarea cols="30" rows="5" class="msgtxt"></textarea>
+                      </li>
+                      <li><a href="#" class="btn orngbtn margtop">{{feedback.submit}}</a> </li>
+                    </ul>  
+             </div> <!--custype ends here-->
+</div>
+
+<div ng-include="'partials/footer.html'" ng-controller="footerCtrl" ></div>

@@ -1,0 +1,129 @@
+<div  ng-controller="cardhowtouseCtrl" ng-repeat="howto in howtouseVariable"> 
+    <!-- Master Head
+    ================================================== -->
+    <div class="orng-patrnBg twotit">
+         <h5><span>{{howto.pagetitle1}}</span><br/>{{howto.pagetitle2}}</h5>
+    </div><!-- master head ends here-->
+   
+   <div class="hidden-xs hidden-sm"> 
+   <div class="container htu margtop">
+   <h5>{{howto.atm}}</h5>
+   	<div class="col-md-4">
+      <img src="images/{{howto.dummyimg}}.jpg"/>
+      <h6>{{howto.step1}}</h6>
+      <p>{{howto.step1desc}}</p>
+    </div>
+   	<div class="col-md-4">
+      <img src="images/pressimg.jpg"/>
+      <h6>{{howto.step2}}</h6>
+      <p>{{howto.step2desc}}</p>
+    </div>
+   	<div class="col-md-4">
+      <img src="images/pressimg.jpg"/>
+      <h6>{{howto.step3}}</h6>
+      <p>{{howto.step3desc}}</p>
+    </div>
+   </div>
+   
+   <div class="lightblubg margtop">
+   	<div class="container htu">
+      <h5>{{howto.topup}}</h5>
+      <p>{{howto.topupdesc}}</p>
+      <ul class="orngbul">
+      <li ng-repeat="toplst in howto.toplst">{{toplst.toplist}}</li>
+      </ul>
+    </div>
+   </div>
+   
+    <!-- How to use and where to use
+    ================================================== -->
+	<div class="container">
+       <div class="row">
+       	  <div class="col-md-6">
+          <div class=" brdrbox margrgt">
+              <h5>{{howto.wheretouse}}</h5>
+              <p>{{howto.whereusep}}</p>
+              <a href="#" class="blkbtn btn hmarg">{{howto.minstry}}</a>
+              <a href="#" class="blkbtn btn">{{howto.typingcntr}}</a>
+              </div>
+            </div>
+          
+          <div class="col-md-6 ">
+          <div class=" brdrbox marglft">
+          <h5>{{howto.goldcard}}</h5>
+          <img class="hgold" src="images/{{howto.goldcardimg}}.png" alt="{{howto.goldcard}}"/>
+          <div class="hbtns"><a href="#/card-types" class="btn orngbtn">{{howto.learnmore}}</a>
+          <a href="#/card" class="btn blkbtn">{{howto.viewallcard}}</a></div>
+          </div>
+          </div>
+       </div> <!--row ends here-->
+	 </div><!-- container ends here-->
+
+   </div><!-- cards-how  for web to use ends here-->
+   
+   
+   <!-- cards-how  for mobile to use starts here-->
+   <div class="hidden-lg hidden-md htu brdr">
+     <div class="panel-group" id="accordion">
+ 	  <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <span class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+               {{howto.atm}} 
+            <i class="indicator glyphicon glyphicon-circle-down"></i></span>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+          <div class="panel-body">
+           <div class="col-md-4">
+              <img src="images/pressimg.jpg"/>
+              <h6>{{howto.step1}}</h6>
+              <p>{{howto.step1desc}}</p>
+            </div>
+            <div class="col-md-4">
+              <img src="images/pressimg.jpg"/>
+              <h6>{{howto.step2}}</h6>
+              <p>{{howto.step1desc}}</p>
+            </div>
+            <div class="col-md-4">
+              <img src="images/pressimg.jpg"/>
+              <h6>{{howto.step3}}</h6>
+              <p>{{howto.step1desc}} </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <span class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+             {{howto.topup}}
+            <i class="indicator glyphicon glyphicon-circle-down"></i></span>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse">
+          <div class="panel-body">
+             <p>{{howto.topupdesc}}</p>
+              <ul class="orngbul">
+              <li ng-repeat="toplst in howto.toplst">{{toplst.toplist}}</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+     </div>
+     </div>
+     
+    <div class="howlst hidden-lg hidden-md">
+         <h6>{{howto.wheretouse}}</h6>
+         <p>E-Dirham is an easy, convenient and secure payment platform for everyone in the UAE. </p>
+            <a href="#/where-to-use"><i class="glyphicon glyphicon-chevron-right"></i></a>
+       </div>
+    
+    
+  </div>  
+    
+
+ <div ng-include="'partials/footer.html'" ng-controller="footerCtrl" ></div>
+   
+    

@@ -1,0 +1,254 @@
+[
+  {  "pagetitle"  :  "Cards", 
+     "cardtypes" : 
+	  [
+		{
+			"cardimg"  : "goldcard",
+			"cardname" : "Gold Card",
+			"cardp"    : "The first and unique card that you can brand with your personal or company name. The Al Haslah Gold Card allows you to transfer larger amounts save and secure via the e-dirham payment platform.",
+			"cardDetail":
+			   [ 
+			     {
+							 "det1": "10.000,00 AED",
+							 "det2": "Limit"
+						 },
+						 {
+							 "det1": "Required",
+							 "det2": "Registration"
+						 },
+						 {
+							 "det1": "3 Years",
+							 "det2": "Expiry Date"
+						 },
+						 {
+							 "det1": "25 AED",
+							 "det2": "Purchase"
+				 }
+			   ],
+			"cardbg":"goldbg",
+			"cardAtrribute": 
+			   [
+			     {"cardAttri":"Magnetic Stripe"},
+				 {"cardAttri":"Visa Cobranded Card– Accepted at worldwide merchants and at e-Dirham G2 merchants"},
+				 {"cardAttri":"Two year expiry date printed on the card"},
+				 {"cardAttri":"Card number. and serial number printed on card"},
+				 {"cardAttri":"Name of Cardholder not printed on card"},
+				 {"cardAttri":"Cardholder picture not printed on card"}
+			   ],
+			 "cardfeaturesp":"Load corresponds to the first time you deposit cash in your card. Please ensure to keep the Activation Code printed on your load receipt to enable you to set a Passcode.",
+			 "cardfeature":
+			    [
+				  {"feature":"No bank account required"},
+				  {"feature":"No registration required"},
+				  {"feature":"Loaded through:"},
+				  {"feature":"All NBAD branches in the UAE"},
+				  {"feature":"All e-Dirham G2 ATMs/CDMs"},
+				  {"feature":"All NBAD ATMs/CDMs"}
+				],
+			 "cardreloadp":"Reload corresponds to subsequent times you deposit cash in your card after first load.",
+			 "cardreload":
+			    [
+				  {"reload":"No bank account required"},
+				  {"reload":"Registration required"},
+				  {"reload":"Reloaded through:"},
+				  {"reload":"All NBAD branches in the UAE for a fee of AED 8"},
+				  {"reload":"All e-Dirham G2"},
+				  {"reload":"ATMs/CDMs for FREE"},
+				  {"reload":"All NBAD ATMs/CDMs for FREE"}
+				]
+				
+		},
+
+		{
+			"cardimg"  : "bluecard",
+			"cardname" : "Blue Card",
+			"cardp"    : "The first and unique card that you can brand with your personal or company name. The Al Haslah Gold Card allows you to transfer larger amounts save and secure via the e-dirham payment platform.",
+			"cardDetail":
+			   [ 
+			     {
+							 "det1": "10.000,00 AED",
+							 "det2": "Limit"
+						 },
+						 {
+							 "det1": "Required",
+							 "det2": "Registration"
+						 },
+						 {
+							 "det1": "3 Years",
+							 "det2": "Expiry Date"
+						 },
+						 {
+							 "det1": "25 AED",
+							 "det2": "Purchase"
+				 }
+			   ],
+			"cardbg":"bluebg",
+			"cardAtrribute": 
+			   [
+			     {"cardAttri":"Magnetic Stripe"},
+				 {"cardAttri":"Visa Cobranded Card– Accepted at worldwide merchants and at e-Dirham G2 merchants"},
+				 {"cardAttri":"Two year expiry date printed on the card"},
+				 {"cardAttri":"Card number. and serial number printed on card"},
+				 {"cardAttri":"Name of Cardholder not printed on card"},
+				 {"cardAttri":"Cardholder picture not printed on card"}
+			   ],
+			 "cardfeaturesp":"Load corresponds to the first time you deposit cash in your card. Please ensure to keep the Activation Code printed on your load receipt to enable you to set a Passcode.",
+			 "cardfeature":
+			    [
+				  {"feature":"No bank account required"},
+				  {"feature":"No registration required"},
+				  {"feature":"Loaded through:"},
+				  {"feature":"All NBAD branches in the UAE"},
+				  {"feature":"All e-Dirham G2 ATMs/CDMs"},
+				  {"feature":"All NBAD ATMs/CDMs"}
+				],
+			 "cardreloadp":"Reload corresponds to subsequent times you deposit cash in your card after first load.",
+			 "cardreload":
+			    [
+				  {"reload":"No bank account required"},
+				  {"reload":"Registration required"},
+				  {"reload":"Reloaded through:"},
+				  {"reload":"All NBAD branches in the UAE for a fee of AED 8"},
+				  {"reload":"All e-Dirham G2"},
+				  {"reload":"ATMs/CDMs for FREE"},
+				  {"reload":"All NBAD ATMs/CDMs for FREE"}
+				]
+		},
+
+		{
+			"cardimg"  : "redcard",
+			"cardname" : "Red Card",
+			"cardp"    : "The first and unique card that you can brand with your personal or company name. The Al Haslah Gold Card allows you to transfer larger amounts save and secure via the e-dirham payment platform.",
+			"cardDetail":
+			   [ 
+			     {
+							 "det1": "10.000,00 AED",
+							 "det2": "Limit"
+						 },
+						 {
+							 "det1": "Required",
+							 "det2": "Registration"
+						 },
+						 {
+							 "det1": "3 Years",
+							 "det2": "Expiry Date"
+						 },
+						 {
+							 "det1": "25 AED",
+							 "det2": "Purchase"
+				 }
+			   ],
+			"cardbg":"redbg",
+			"cardAtrribute": 
+			   [
+			     {"cardAttri":"Magnetic Stripe"},
+				 {"cardAttri":"Visa Cobranded Card– Accepted at worldwide merchants and at e-Dirham G2 merchants"},
+				 {"cardAttri":"Two year expiry date printed on the card"},
+				 {"cardAttri":"Card number. and serial number printed on card"},
+				 {"cardAttri":"Name of Cardholder not printed on card"},
+				 {"cardAttri":"Cardholder picture not printed on card"}
+			   ],
+			 "cardfeaturesp":"Load corresponds to the first time you deposit cash in your card. Please ensure to keep the Activation Code printed on your load receipt to enable you to set a Passcode.",
+			 "cardfeature":
+			    [
+				  {"feature":"No bank account required"},
+				  {"feature":"No registration required"},
+				  {"feature":"Loaded through:"},
+				  {"feature":"All NBAD branches in the UAE"},
+				  {"feature":"All e-Dirham G2 ATMs/CDMs"},
+				  {"feature":"All NBAD ATMs/CDMs"}
+				],
+			 "cardreloadp":"Reload corresponds to subsequent times you deposit cash in your card after first load.",
+			 "cardreload":
+			    [
+				  {"reload":"No bank account required"},
+				  {"reload":"Registration required"},
+				  {"reload":"Reloaded through:"},
+				  {"reload":"All NBAD branches in the UAE for a fee of AED 8"},
+				  {"reload":"All e-Dirham G2"},
+				  {"reload":"ATMs/CDMs for FREE"},
+				  {"reload":"All NBAD ATMs/CDMs for FREE"}
+				]
+		},
+
+		{
+			"cardimg"  : "greencard",
+			"cardname" : "Green Card",
+			"cardp"    : "The first and unique card that you can brand with your personal or company name. The Al Haslah Gold Card allows you to transfer larger amounts save and secure via the e-dirham payment platform.",
+			"cardDetail":
+			   [ 
+			     {
+							 "det1": "10.000,00 AED",
+							 "det2": "Limit"
+						 },
+						 {
+							 "det1": "Required",
+							 "det2": "Registration"
+						 },
+						 {
+							 "det1": "3 Years",
+							 "det2": "Expiry Date"
+						 },
+						 {
+							 "det1": "25 AED",
+							 "det2": "Purchase"
+				 }
+			   ],
+			"cardbg":"greenbg",
+			"cardAtrribute": 
+			   [
+			     {"cardAttri":"Magnetic Stripe"},
+				 {"cardAttri":"Visa Cobranded Card– Accepted at worldwide merchants and at e-Dirham G2 merchants"},
+				 {"cardAttri":"Two year expiry date printed on the card"},
+				 {"cardAttri":"Card number. and serial number printed on card"},
+				 {"cardAttri":"Name of Cardholder not printed on card"},
+				 {"cardAttri":"Cardholder picture not printed on card"}
+			   ],
+			 "cardfeaturesp":"Load corresponds to the first time you deposit cash in your card. Please ensure to keep the Activation Code printed on your load receipt to enable you to set a Passcode.",
+			 "cardfeature":
+			    [
+				  {"feature":"No bank account required"},
+				  {"feature":"No registration required"},
+				  {"feature":"Loaded through:"},
+				  {"feature":"All NBAD branches in the UAE"},
+				  {"feature":"All e-Dirham G2 ATMs/CDMs"},
+				  {"feature":"All NBAD ATMs/CDMs"}
+				],
+			 "cardreloadp":"Reload corresponds to subsequent times you deposit cash in your card after first load.",
+			 "cardreload":
+			    [
+				  {"reload":"No bank account required"},
+				  {"reload":"Registration required"},
+				  {"reload":"Reloaded through:"},
+				  {"reload":"All NBAD branches in the UAE for a fee of AED 8"},
+				  {"reload":"All e-Dirham G2"},
+				  {"reload":"ATMs/CDMs for FREE"},
+				  {"reload":"All NBAD ATMs/CDMs for FREE"}
+				]
+		}
+
+	  ],
+  			 "learnmore": "Learn More",
+			 "applynow" : "Apply Now",
+			 "attributes": "Attributes",
+			 "features": "Features",
+			 "cardreload":"Card reload",
+			 "howtouse" : "How to Use",
+			 "howtousep": "E-Dirham is an easy, convenient and secure payment platform for everyone in the UAE. Use your Al Haslah card, Mobile or online solutions and much more with great ease. Find all your information here or contact our helpdesk if you require any further information.",
+			 "howtousepm":"E-Dirham is an easy, convenient and secure payment platform for everyone in the UAE.",
+			 "atm": "ATM's",
+			 "topup": "Top Up",
+			 "wheretouse": "Where to Use",
+			 "wheretousep": "You can pay with e-dirham at most of the UAE Ministries, Merchants, Typing centers and much more. Find out all the locations to top up your accounts and make payments via the ED Kiosk, ED Mobile or Online.",
+			 "wheretousepm":"You can pay with e-dirham at most of the UAE Ministries, Merchants, Typing centers, and much more.",
+			 "ministry": "Ministry and authorities",
+			 "typingcenter": "Typing Center",
+			 "choose": "Choose what Suits best for me",
+			 "choosep":"E-Dirham wizard will help you find out which card suits best for your need",
+			 "whichcard":"Which card is right for you?",
+			 "trynow":"Try Now",
+			 "viewallcards":"View All Cards"
+	  
+  }
+		
+]

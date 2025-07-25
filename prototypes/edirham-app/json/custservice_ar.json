@@ -1,0 +1,43 @@
+[
+  {  "pagetitle"    :  "Customer Service", 
+ 	 "custsupptitle":  "e-Dirham Customer Support Services ",
+	 "custsupdesc"  :  "Toll free: 800MOF (800663)\n International: +971 2 495 1000\n\n The dedicated e-Dirham G2 Call Centre is available 24x7 and provides support in three languages: English, Arabic and Urdu.\n \n You will be able to perform the following:",
+	 "custsuplst"   : 
+	   [
+	      {"suplst":"Set/Change/Reset your Passcode"},
+	   	  {"suplst":"Short Register"},
+		  {"suplst":"Block your e-Dirham card"},
+		  {"suplst":"Inquire about your e-Dirham card balance and transactions made on the card"},
+		  {"suplst":"Obtain guidance and information about the e-Dirham system"},
+		  {"suplst":"Other queries and follow ups (using your Issue ID numbers)"}
+	   ],
+	 "sms"  : "SMS",
+	 "smsp" : "SMS notifications of transactions made on the e-Dirham G2 cards for registered customers (subject to availability in both English and Arabic) \n \n 24/7 e-Dirham and NBAD ATMs/CDMs across the UAE \n \n You will be able to perform the following:",
+	 "smslst":
+	   [
+	      {"smslist": "Set Passcode/ Change Passcode / Reset Passcode"},
+	      {"smslist": "Load and Reload your e-Dirham G2 cards"},
+		  {"smslist": "Assigning PIN"},
+		  {"smslist": "Cash withdrawal ..etc"}
+	   ],
+	 "g2web" : "e-Dirham G2 Website - Authorized access",
+	 "g2webp": "You need to have set your Passcode to be able to access all the functionalities of the e-Dirham G2 website.\n \n  Please see the section related to \"Passcode\" for guidance.\n \n By accessing the e-Dirham G2 Website, you will be able to:",
+	 "g2weblst":
+	   [
+	     {"g2weblist": "Obtain guidance and information about the e-Dirham system"},
+		 {"g2weblist": "Set/Change your Passcode"},
+		 {"g2weblist": "Manage and edit your profile"},
+		 {"g2weblist": "View your e-Dirham Card details"},
+		 {"g2weblist": "Inquire about your e-Dirham card balance and transactions made on the card"},
+		 {"g2weblist": "Block your e-Dirham card"},
+		 {"g2weblist": "Report an issue"},
+		 {"g2weblist": "Apply online for the Gold Al Haslah Card"},
+		 {"g2weblist": "Initiate the Red Al Haslah Card full registration process"},
+		 {"g2weblist": "Short register your e-Dirham G2 cards."}, 
+		 {"g2weblist": "Request for Point of Sale Terminals (Will be available soon for e-Dirham G2 merchants)"}
+	   ]
+	   
+	 
+  }
+		
+]

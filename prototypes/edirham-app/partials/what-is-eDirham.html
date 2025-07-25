@@ -1,0 +1,178 @@
+<div  ng-controller="whatisedirhamCtrl" ng-repeat="whatis in whatisedirhamVariable"> 
+    <!-- Master Head
+    ================================================== -->
+    <div class="whatsedirhambnr">
+         <h5>{{whatis.pagetitle}}</h5>
+    </div><!-- master head ends here-->
+    
+    <div class="container margtop">
+    <p class="servip">{{whatis.whatsedirhamp}}</p>
+	</div>
+
+    <!-- Types 
+    ================================================== -->
+    
+     <div class="prpty hidden-xs hidden-sm">
+              <div class="container">
+               <div class="col-md-4" ng-repeat="edhsprop in whatis.edhsProp">
+               		<h5>{{edhsprop.prptyTitle}}</h5>
+                    <p>{{edhsprop.prptyp}}</p>
+                    <ul>
+                    <li ng-repeat="prptylst in edhsprop.prptylst">{{prptylst.plst}}</li>
+                    </ul>
+                </div>
+              </div>
+     </div><!-- prop ends here-->
+     
+     <div class="hidden-lg hidden-md">
+     <div class="panel-group" id="accordion">
+ 	  <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <span class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+              {{whatis.edhsProp[0].prptyTitle}}
+            <i class="indicator glyphicon glyphicon-circle-down"></i></span>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse">
+          <div class="panel-body">
+            <p>{{whatis.edhsProp[0].prptyp}}</p>
+                    <ul class="orngbul">
+                   <li ng-repeat="prptylst in whatis.edhsProp[0].prptylst">{{prptylst.plst}}</li>
+                    </ul>
+          </div>
+        </div>
+      </div>
+  	  <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <span class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+              {{whatis.edhsProp[1].prptyTitle}}
+            <i class="indicator glyphicon glyphicon-circle-down"></i></span>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+          <div class="panel-body">
+            <p>{{whatis.edhsProp[1].prptyp}}</p>
+                    <ul class="orngbul">
+                    <li ng-repeat="prptylst in whatis.edhsProp[1].prptylst">{{prptylst.plst}}</li>
+                    </ul>
+          </div>
+        </div>
+      </div>
+  	  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <span class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+         {{whatis.edhsProp[2].prptyTitle}}
+        <i class="indicator glyphicon glyphicon-circle-down"></i></span>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+        <p>{{whatis.edhsProp[2].prptyp}}</p>
+                    <ul class="orngbul">
+                    <li ng-repeat="prptylst in whatis.edhsProp[2].prptylst">{{prptylst.plst}}</li>
+                    </ul>
+      </div>
+    </div>
+  </div>
+     </div>
+     </div>
+
+   <!-- Sapein starts here
+    ================================================== -->
+    <section class="sapien">
+    <div class="container">
+    <h5>{{whatis.rhoncus}}</h5>
+    <p>{{whatis.rhoncusp}}</p>
+    
+    <div class="circle-web hidden-xs hidden-sm" >
+    <ul class="wow fadeIn">
+        <li class="col-md-4">
+         <canvas gaugejs options="gaugeOptions" value="value" max-value="maxValue" animation-time="animationTime"></canvas><span>{{whatis.year1}}</span>
+        </li>
+        
+        <li class="col-md-4">
+          <canvas gaugejs options="gaugeOptions" value="value2" max-value="maxValue" animation-time="animationTime"></canvas><span>{{whatis.year2}}</span>
+        </li>
+        
+        <li class="col-md-4">
+          <canvas gaugejs options="gaugeOptions" value="value3" max-value="maxValue" animation-time="animationTime"></canvas><span>{{whatis.year3}}</span>
+        </li>
+     </ul>
+    </div> <!--circle-web ends here-->
+    
+     <div id="circlecarousel" class="carousel slide hidden-lg hidden-md" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#circlecarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#circlecarousel" data-slide-to="1"></li>
+        <li data-target="#circlecarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="container">
+            <canvas gaugejs options="gaugeOptions" value="value" max-value="maxValue" animation-time="animationTime"></canvas><span>{{whatis.year1}}</span>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container">
+           <canvas gaugejs options="gaugeOptions" value="value2" max-value="maxValue" animation-time="animationTime"></canvas><span>{{whatis.year2}}</span>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container">
+            <canvas gaugejs options="gaugeOptions" value="value3" max-value="maxValue" animation-time="animationTime"></canvas><span>{{whatis.year3}}</span>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.carousel -->
+    
+    </div><!-- container ends here-->
+    </section> <!--sapien ends here-->
+    
+   </div>    
+    <!-- Press release starts here
+    ================================================== -->
+    <section class="container press"  ng-controller="pressCtrl" ng-repeat="press in pressVariable">
+    <h5>{{press.pagetitle}}</h5>
+    <div class="hidden-xs hidden-sm">
+    <div class="col-md-4" ng-repeat="newsJan2014 in press.newsJan2014|limitTo:3">
+        <figure class="presreles"><img src="images/{{newsJan2014.newsimg}}.jpg" alt="{{newsJan2014.newsimg}}"/>
+        <figcaption><h6>{{newsJan2014.newstitle}}</h6>
+        <p>{{newsJan2014.newsdesc}}</p>
+        <a href="#/press-details">{{press.readmore}}</a></figcaption>
+        </figure>
+    </div>
+    </div> <!--Press for web ends here-->
+    
+    <div class="hidden-lg hidden-md">
+    	<ul class="pressmob">
+         <li ng-repeat="newsJan2014 in press.newsJan2014|limitTo:3" >
+         	<img src="images/{{newsJan2014.newsimg}}.jpg" alt="{{newsJan2014.newsimg}}"/>
+            <p>{{newsJan2014.newsdesc}}
+			</p><a href="#/press-details">{{press.readmore}}</a>
+         </li>
+        </ul>
+    
+    </div>  <!--Press for mobile ends here-->
+    
+    <div class="midbtn"><a href="#/press-release" class="btn orngbtn">View All Press Releases</a></div>
+    </section>
+ 
+ <div ng-include="'partials/footer.html'" ng-controller="footerCtrl" ></div>
+   
+    <script>
+		$( window ).load(function() {
+		function toggleChevron(e) {
+			$(e.target)
+				.prev('.panel-heading')
+				.find("i.indicator")
+				.toggleClass('glyphicon-circle-down glyphicon-circle-up');
+		}
+		$('#accordion').on('hidden.bs.collapse', toggleChevron);
+		$('#accordion').on('shown.bs.collapse', toggleChevron);
+		
+		});
+	</script>
