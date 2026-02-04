@@ -1,0 +1,46 @@
+# robots.txt for gui-ux.com
+# Allow all search engines and AI crawlers
+
+User-agent: *
+Allow: /
+
+# Explicitly allow AI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Perplexity
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+# Sitemap location
+Sitemap: https://gui-ux.com/sitemap.xml
+
+# LLMs.txt location for AI-specific content
+# See: https://llmstxt.org/
+# LLMs.txt: https://gui-ux.com/llms.txt

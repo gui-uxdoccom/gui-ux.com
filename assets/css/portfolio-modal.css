@@ -4,6 +4,7 @@
     height: 30rem!important
 }
 
+
 .portfolio-modal {
     position: fixed;
     top: 0;
@@ -144,8 +145,15 @@
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
     .gap-12{
-        margin-top:40px!important
+        margin-top:80px!important
     }
+
+    /* Fix for tab container padding */
+.p-2 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
     
     .modal-content {
         max-width: 85vw;
