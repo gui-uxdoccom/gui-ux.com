@@ -85,36 +85,43 @@ sendBtn.addEventListener('click', (e) => {
             method: 'POST',
             body: formData
         })
-        .then(response => response.text())
+        .then(response => response.json())
         .then(data => {
-            // Success
-            sendBtn.innerHTML = '<i class="fas fa-check mr-2"></i>Message Sent!';
-            sendBtn.classList.remove('bg-primary', 'hover:bg-green-700');
-            sendBtn.classList.add('bg-green-500');
-            
-            // Reset form
-            contactForm.reset();
-            
+            if (data.success) {
+                // Success
+                sendBtn.innerHTML = '<i class="fas fa-check mr-2"></i>Message Sent!';
+                sendBtn.classList.remove('bg-primary', 'hover:bg-gray-700');
+                sendBtn.classList.add('bg-green-500');
+
+                // Reset form
+                contactForm.reset();
+            } else {
+                // Server returned error
+                sendBtn.innerHTML = '<i class="fas fa-exclamation-triangle mr-2"></i>' + (data.message || 'Error occurred');
+                sendBtn.classList.remove('bg-primary', 'hover:bg-gray-700');
+                sendBtn.classList.add('bg-red-500');
+            }
+
             // Reset button after 3 seconds
             setTimeout(() => {
                 sendBtn.innerHTML = 'Get in touch';
                 sendBtn.disabled = false;
-                sendBtn.classList.remove('bg-green-500');
-                sendBtn.classList.add('bg-primary', 'hover:bg-green-700');
+                sendBtn.classList.remove('bg-green-500', 'bg-red-500');
+                sendBtn.classList.add('bg-primary', 'hover:bg-gray-700');
             }, 3000);
         })
         .catch(error => {
             console.error('Error:', error);
             sendBtn.innerHTML = '<i class="fas fa-exclamation-triangle mr-2"></i>Error occurred';
-            sendBtn.classList.remove('bg-primary', 'hover:bg-green-700');
+            sendBtn.classList.remove('bg-primary', 'hover:bg-gray-700');
             sendBtn.classList.add('bg-red-500');
-            
+
             // Reset button after 3 seconds
             setTimeout(() => {
                 sendBtn.innerHTML = 'Get in touch';
                 sendBtn.disabled = false;
                 sendBtn.classList.remove('bg-red-500');
-                sendBtn.classList.add('bg-primary', 'hover:bg-green-700');
+                sendBtn.classList.add('bg-primary', 'hover:bg-gray-700');
             }, 3000);
         });
     } else {
