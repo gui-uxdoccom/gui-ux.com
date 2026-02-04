@@ -34,4 +34,11 @@
     <priority>0.7</priority>
   </url>
 
+  <url>
+    <loc>https://gui-ux.com/portfolio.html</loc>
+    <lastmod>2025-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
 </urlset>
