@@ -1,54 +1,63 @@
-# Guilherme Rodrigues - UX Designer
+# Guilherme Rodrigues — Digital Transformation & Experience Design
 
-> Guilherme Rodrigues (Guil) is a User Experience Designer with 20+ years of experience, based in Abu Dhabi and Riyadh, serving UAE and KSA markets.
+> Guilherme Rodrigues (Guil) is a digital transformation leader and experience designer with 20+ years of experience, currently Senior VP of Digital Experiences & Platforms at the Public Investment Fund (PIF) in Riyadh, Saudi Arabia.
 
 ## About
 
-Guilherme Rodrigues is a Brazilian UX Designer who moved to Dubai in 2012 and now works across the UAE and Saudi Arabia. He currently heads Digital Experiences and Platforms at PIF in Riyadh. His career includes key projects such as the 2nd generation of SmartGates for Dubai airports and Digital transformation at Etisalat.
+Guilherme Rodrigues is a Brazilian designer and digital leader based in Riyadh, KSA. He moved to Dubai in 2012 and has worked across Brazil, the UAE and Saudi Arabia. He leads digital platforms and experiences at PIF, Saudi Arabia's sovereign wealth fund. His specialty is turning ambitious visions into market-ready products that deliver measurable results, using design thinking, generative AI and data-driven insight.
+
+## Career
+
+- Public Investment Fund (Riyadh, KSA): Senior VP, Digital Experiences & Platforms, 2022–present
+- First Abu Dhabi Bank (Abu Dhabi, UAE): AVP, Customer Experience & Design, 2018–2022
+- Etisalat (Dubai, UAE): Manager, User Experience & Operations, 2016–2018
+- EOV Media (Dubai, UAE): Partner & Head of UX Design, 2014–2016
+- emaratech (Dubai, UAE): Lead User Experience, 2012–2014
+- Hewlett Packard (Porto Alegre, Brazil): Software Designer, 2011
+- TOTVS (Porto Alegre, Brazil): User Interface Specialist, 2009–2010
+- ConceitoWeb (Porto Alegre, Brazil): System Analyst & Operations Manager, 2006–2009
+
+## Key Projects
+
+- payit Wallet (First Abu Dhabi Bank): the UAE's first fully-featured digital wallet; app rating raised from 3.5 to 4.5 in 30 days. https://www.payit.ae
+- Unimed Brasil: end-to-end experience for Brazil's biggest healthcare cooperative; featured on the App Store and Google Play in 2019. https://www.unimed.coop.br/site/
+- Dubai Smart Gate (emaratech × Dubai Airports): second-generation smart gate design; the foundation for the gates in operation at DXB today.
+- Gas Station, Re-imagined (Etisalat Digital): strategy concept exploring new revenue streams and digital touchpoints.
+- Etisalat Design Studio: led a 42-person multidisciplinary studio; shipped the Smiles loyalty app (~1.2M users, 4.6★ App Store) and the etisalat.ae digital transformation program.
+- CoreCase: digitised, eco-friendly core boxes for mining; end-to-end flow from field to back-office.
 
 ## Expertise
 
-- User Experience Design
 - Digital Transformation
-- Design Thinking
-- User Interface Design
-- Wireframing & Prototyping
-- User Research
-- Usability Testing
-- Design Systems
-- Customer Experience (NPS and Operations)
-- Analytics & Monitoring
+- User Experience Design & Design Thinking
+- Customer Experience (NPS, VoC, CSAT)
+- Generative AI & Innovation
+- Team Leadership (studios up to 42 people)
+- Research, Rapid Prototyping, Design Systems
+- Data Analytics & Digital Marketing
 
-## Services
+## Education
 
-Guil offers UX design services including:
-- Customer experience optimization
-- Digital transformation consulting
-- Design thinking workshops
-- User research and benchmarking
-- Visual and user interface design
-- Design system creation
-- Usability audits
-- Wireframes and rapid prototypes
+- Executive Development Program, Wharton (2025)
+- Leading AI & Digital Transformation, INSEAD (2024)
+- Cultivating Creative Collaboration, IDEO U (2023)
+- Disruptive Strategy, Harvard Business School Online (2022)
+- PG, Innovation & Design Thinking, Emeritus (2020)
+- Bachelor, Information Systems, Faculdade Dom Bosco (2009)
 
-## Portfolio Highlights
+## Languages
 
-- Card Sorting: UX research methodology for information architecture
-- User Journey Mapping: Mapping experiences across touchpoints
-- User Personas: Research-driven archetypes for design decisions
-- Wireframes & Prototypes: Low-fi to high-fi prototyping
-- Camel Race App: Mobile application for UAE traditional sport
-- Unimed Porto Alegre: Healthcare platform redesign
+Português, English, Español, Italiano
 
 ## Contact
 
 - Email: contact@gui-ux.com
-- Phone: +971 54 345 4514
-- Location: Abu Dhabi, UAE & Riyadh, KSA
-- LinkedIn: https://ae.linkedin.com/in/uxguilherme
-- Twitter: https://www.twitter.com/globo_rodrigues
+- Phone: +966 57 056 4746
+- Location: Riyadh, KSA
+- LinkedIn: https://www.linkedin.com/in/uxguilherme/
+- Blog: https://blog.gui-ux.com/ (topics: AI, design & UX, globe riding and hobbies)
 - Website: https://gui-ux.com
 
 ## Fun Facts
 
-Outside of tech, Guil enjoys good filtered coffee, classic cars, and riding in the Globe of Death (dangerglobe.com).
+Outside of tech, Guil rides a motorbike in the Globe of Death, restores classic cars, and hunts for the perfect cup of coffee.
