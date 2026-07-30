@@ -4,41 +4,20 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-  <!-- Homepage (Single Page Application) -->
+  <!-- Homepage: single-page site with sections
+       #work, #experience, #philosophy, #about, #stories -->
   <url>
     <loc>https://gui-ux.com/</loc>
-    <lastmod>2025-07-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Section anchors for comprehensive indexing -->
+  <!-- Blog (separate subdomain) -->
   <url>
-    <loc>https://gui-ux.com/#about</loc>
-    <lastmod>2025-07-24</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://blog.gui-ux.com/</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://gui-ux.com/#works</loc>
-    <lastmod>2025-07-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://gui-ux.com/#contact</loc>
-    <lastmod>2025-07-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://gui-ux.com/portfolio.html</loc>
-    <lastmod>2025-07-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
 
 </urlset>
